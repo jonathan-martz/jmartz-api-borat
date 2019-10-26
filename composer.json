@@ -22,7 +22,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://borat.jmartz.de/private/"
+            "url": "https://api-borat.jmartz.de/"
         }
     ],
     "require-dev": {

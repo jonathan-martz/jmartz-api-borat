@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "887c3a27379194d97694b5167fa2643f",
+    "content-hash": "efdaf1fe16e81468b543f48bc01ff5ba",
     "packages": [
         {
             "name": "composer/semver",
@@ -1393,12 +1393,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonathan-martz/lumen-borat-controller.git",
-                "reference": "e6ba00fcd60f0e7d430f5784ac9f4ab4a5cb8fbf"
+                "reference": "53d7125d369c16d31d7d27cb9724f939ad399b4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonathan-martz/lumen-borat-controller/zipball/e6ba00fcd60f0e7d430f5784ac9f4ab4a5cb8fbf",
-                "reference": "e6ba00fcd60f0e7d430f5784ac9f4ab4a5cb8fbf",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-borat-controller/zipball/53d7125d369c16d31d7d27cb9724f939ad399b4b",
+                "reference": "53d7125d369c16d31d7d27cb9724f939ad399b4b",
                 "shasum": ""
             },
             "require": {
@@ -1422,7 +1422,7 @@
                 }
             ],
             "description": "Php Lumen Borat Controller",
-            "time": "2019-10-25T17:57:41+00:00"
+            "time": "2019-10-25T20:45:09+00:00"
         },
         {
             "name": "jonathan-martz/lumen-controller",
