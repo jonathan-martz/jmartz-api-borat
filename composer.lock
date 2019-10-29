@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "efdaf1fe16e81468b543f48bc01ff5ba",
+    "content-hash": "29991b546c978e6fe99753a860cf7bd4",
     "packages": [
         {
             "name": "composer/semver",
@@ -1389,20 +1389,19 @@
         },
         {
             "name": "jonathan-martz/lumen-borat-controller",
-            "version": "dev-master",
+            "version": "0.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonathan-martz/lumen-borat-controller.git",
-                "reference": "53d7125d369c16d31d7d27cb9724f939ad399b4b"
+                "reference": "15554ed5f6255537f3152c3829e6dc69050cff69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonathan-martz/lumen-borat-controller/zipball/53d7125d369c16d31d7d27cb9724f939ad399b4b",
-                "reference": "53d7125d369c16d31d7d27cb9724f939ad399b4b",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-borat-controller/zipball/15554ed5f6255537f3152c3829e6dc69050cff69",
+                "reference": "15554ed5f6255537f3152c3829e6dc69050cff69",
                 "shasum": ""
             },
             "require": {
-                "jonathan-martz/lumen-controller": "^0.2",
                 "laravel/lumen-framework": "^5.6.0",
                 "php": "^7.1"
             },
@@ -1422,57 +1421,20 @@
                 }
             ],
             "description": "Php Lumen Borat Controller",
-            "time": "2019-10-25T20:45:09+00:00"
-        },
-        {
-            "name": "jonathan-martz/lumen-controller",
-            "version": "0.2.2",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:jonathan-martz/lumen-controller.git",
-                "reference": "a2640827e5a92a4f817ba7563cd1da9e1d9657af"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://borat.jmartz.de/private/dists/jonathan-martz/lumen-controller/0.2.2.0/a2640827e5a92a4f817ba7563cd1da9e1d9657af.zip",
-                "reference": "a2640827e5a92a4f817ba7563cd1da9e1d9657af",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/lumen-framework": "^5.6.0",
-                "php": "^7.1"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "controller/"
-                ]
-            },
-            "authors": [
-                {
-                    "name": "JonathanMartz",
-                    "email": "composer@jmartz.de",
-                    "homepage": "https://www.jmartz.de",
-                    "role": "Developer"
-                }
-            ],
-            "description": "PhpLumenControllertoorganiseresponse",
-            "support": {
-                "source": ""
-            }
+            "time": "2019-10-29T07:13:04+00:00"
         },
         {
             "name": "jonathan-martz/lumen-exeception-to-json",
-            "version": "0.2.7",
+            "version": "0.2.8",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jonathan-martz/lumen-exeception-to-json.git",
-                "reference": "b99763be9f255b80a1e3489103e93dda912235a1"
+                "url": "https://github.com/jonathan-martz/lumen-exeception-to-json.git",
+                "reference": "812e970d4ddb55a55fbf3d8fb6cf0ca19830fb6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://borat.jmartz.de/private/dists/jonathan-martz/lumen-exeception-to-json/0.2.7.0/b99763be9f255b80a1e3489103e93dda912235a1.zip",
-                "reference": "b99763be9f255b80a1e3489103e93dda912235a1",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-exeception-to-json/zipball/812e970d4ddb55a55fbf3d8fb6cf0ca19830fb6f",
+                "reference": "812e970d4ddb55a55fbf3d8fb6cf0ca19830fb6f",
                 "shasum": ""
             },
             "require": {
@@ -1485,18 +1447,17 @@
                     "class/"
                 ]
             },
+            "notification-url": "https://packagist.org/downloads/",
             "authors": [
                 {
-                    "name": "JonathanMartz",
+                    "name": "Jonathan Martz",
                     "email": "composer@jmartz.de",
                     "homepage": "https://www.jmartz.de",
                     "role": "Developer"
                 }
             ],
-            "description": "PhpLumenhandleapiexecption.",
-            "support": {
-                "source": ""
-            }
+            "description": "Php Lumen handle api execption.",
+            "time": "2019-10-04T19:41:48+00:00"
         },
         {
             "name": "kylekatarnls/update-helper",
@@ -4378,16 +4339,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "7.5.16",
+            "version": "7.5.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "316afa6888d2562e04aeb67ea7f2017a0eb41661"
+                "reference": "4c92a15296e58191a4cd74cff3b34fc8e374174a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/316afa6888d2562e04aeb67ea7f2017a0eb41661",
-                "reference": "316afa6888d2562e04aeb67ea7f2017a0eb41661",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/4c92a15296e58191a4cd74cff3b34fc8e374174a",
+                "reference": "4c92a15296e58191a4cd74cff3b34fc8e374174a",
                 "shasum": ""
             },
             "require": {
@@ -4458,7 +4419,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2019-09-14T09:08:39+00:00"
+            "time": "2019-10-28T10:37:36+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -5069,10 +5030,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "jonathan-martz/lumen-exeception-to-json": 20,
-        "jonathan-martz/lumen-borat-controller": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
