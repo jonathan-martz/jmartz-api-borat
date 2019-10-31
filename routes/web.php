@@ -13,8 +13,11 @@
 		return $router->app->version();
 	});
 
-    $router->get('/packages.json', 'BoratController@packages');
-    $router->get('/p/{vendor}/{module}.json', 'BoratController@package');
+    $router->get('{type}/packages.json', 'BoratController@packages');
+    $router->get('{type}/p/{vendor}/{module}.json', 'BoratController@package');
+
+    $router->get('{type}/packages.json', 'BoratController@packages');
+    $router->get('{type}/p/{vendor}/{module}.json', 'BoratController@package');
 
 	$router->group(['middleware' => 'auth'], function() use ($router){
 
