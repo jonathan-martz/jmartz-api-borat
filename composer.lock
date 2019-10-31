@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d4950b4c4e5518e725740860edce6781",
+    "content-hash": "c55916070a092c6152db9543c1382bc7",
     "packages": [
         {
             "name": "composer/semver",
@@ -1526,16 +1526,16 @@
         },
         {
             "name": "jonathan-martz/lumen-borat-controller",
-            "version": "0.1.11",
+            "version": "0.1.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonathan-martz/lumen-borat-controller.git",
-                "reference": "8964e28161bf16092dc52aa5e8a90e80b3b474a1"
+                "reference": "68f6a9f8faa0ea4d8148a7a646a2a77087f596ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonathan-martz/lumen-borat-controller/zipball/8964e28161bf16092dc52aa5e8a90e80b3b474a1",
-                "reference": "8964e28161bf16092dc52aa5e8a90e80b3b474a1",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-borat-controller/zipball/68f6a9f8faa0ea4d8148a7a646a2a77087f596ff",
+                "reference": "68f6a9f8faa0ea4d8148a7a646a2a77087f596ff",
                 "shasum": ""
             },
             "require": {
@@ -1558,24 +1558,61 @@
                 }
             ],
             "description": "Php Lumen Borat Controller",
-            "time": "2019-10-29T18:14:39+00:00"
+            "time": "2019-10-30T10:03:49+00:00"
         },
         {
-            "name": "jonathan-martz/lumen-exeception-to-json",
-            "version": "0.2.8",
+            "name": "jonathan-martz/lumen-controller",
+            "version": "0.2.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jonathan-martz/lumen-exeception-to-json.git",
-                "reference": "812e970d4ddb55a55fbf3d8fb6cf0ca19830fb6f"
+                "url": "https://github.com/jonathan-martz/lumen-controller.git",
+                "reference": "a2640827e5a92a4f817ba7563cd1da9e1d9657af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonathan-martz/lumen-exeception-to-json/zipball/812e970d4ddb55a55fbf3d8fb6cf0ca19830fb6f",
-                "reference": "812e970d4ddb55a55fbf3d8fb6cf0ca19830fb6f",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller/zipball/a2640827e5a92a4f817ba7563cd1da9e1d9657af",
+                "reference": "a2640827e5a92a4f817ba7563cd1da9e1d9657af",
                 "shasum": ""
             },
             "require": {
                 "laravel/lumen-framework": "^5.6.0",
+                "php": "^7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "controller/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Jonathan Martz",
+                    "email": "composer@jmartz.de",
+                    "homepage": "https://www.jmartz.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Php Lumen Controller to organise response",
+            "time": "2019-10-04T11:00:58+00:00"
+        },
+        {
+            "name": "jonathan-martz/lumen-exeception-to-json",
+            "version": "0.2.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jonathan-martz/lumen-exeception-to-json.git",
+                "reference": "3c390a3a8777e6d38d22f2bd1433f8ba1ea42411"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-exeception-to-json/zipball/3c390a3a8777e6d38d22f2bd1433f8ba1ea42411",
+                "reference": "3c390a3a8777e6d38d22f2bd1433f8ba1ea42411",
+                "shasum": ""
+            },
+            "require": {
+                "jonathan-martz/lumen-controller": "^0.2",
+                "laravel/lumen-framework": "^5.8.0",
                 "php": "^7.0"
             },
             "type": "library",
@@ -1594,20 +1631,20 @@
                 }
             ],
             "description": "Php Lumen handle api execption.",
-            "time": "2019-10-04T19:41:48+00:00"
+            "time": "2019-10-30T09:54:12+00:00"
         },
         {
             "name": "laravel/lumen-framework",
-            "version": "v5.8.7",
+            "version": "v5.8.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/lumen-framework.git",
-                "reference": "7a89b2f0c3f364be083be1f80e98929191447dfc"
+                "reference": "5d1d1ba8dbc5b69a17370d276e96d30eb00a2b48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/lumen-framework/zipball/7a89b2f0c3f364be083be1f80e98929191447dfc",
-                "reference": "7a89b2f0c3f364be083be1f80e98929191447dfc",
+                "url": "https://api.github.com/repos/laravel/lumen-framework/zipball/5d1d1ba8dbc5b69a17370d276e96d30eb00a2b48",
+                "reference": "5d1d1ba8dbc5b69a17370d276e96d30eb00a2b48",
                 "shasum": ""
             },
             "require": {
@@ -1635,18 +1672,17 @@
                 "illuminate/view": "5.8.*",
                 "nikic/fast-route": "^1.3",
                 "php": "^7.1.3",
-                "symfony/http-foundation": "^4.1",
-                "symfony/http-kernel": "^4.1",
-                "symfony/var-dumper": "^4.1"
+                "symfony/http-foundation": "^4.2",
+                "symfony/http-kernel": "^4.2",
+                "symfony/var-dumper": "^4.2",
+                "vlucas/phpdotenv": "^3.3"
             },
             "require-dev": {
                 "mockery/mockery": "^1.0",
-                "phpunit/phpunit": "^7.0|^8.0",
-                "vlucas/phpdotenv": "^3.3"
+                "phpunit/phpunit": "^7.0|^8.0"
             },
             "suggest": {
-                "laravel/tinker": "Required to use the tinker console command (^1.0).",
-                "vlucas/phpdotenv": "Required to use .env files (^3.3)."
+                "laravel/tinker": "Required to use the tinker console command (^1.0)."
             },
             "type": "library",
             "extra": {
@@ -1679,7 +1715,7 @@
                 "laravel",
                 "lumen"
             ],
-            "time": "2019-05-21T18:17:41+00:00"
+            "time": "2019-08-28T21:21:05+00:00"
         },
         {
             "name": "league/flysystem",
@@ -2322,6 +2358,56 @@
             ],
             "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names",
             "time": "2019-08-22T18:11:29+00:00"
+        },
+        {
+            "name": "phpoption/phpoption",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/schmittjoh/php-option.git",
+                "reference": "94e644f7d2051a5f0fcf77d81605f152eecff0ed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/94e644f7d2051a5f0fcf77d81605f152eecff0ed",
+                "reference": "94e644f7d2051a5f0fcf77d81605f152eecff0ed",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.7.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "PhpOption\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache2"
+            ],
+            "authors": [
+                {
+                    "name": "Johannes M. Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Option Type for PHP",
+            "keywords": [
+                "language",
+                "option",
+                "php",
+                "type"
+            ],
+            "time": "2015-07-25T16:39:46+00:00"
         },
         {
             "name": "psr/container",
@@ -3651,29 +3737,30 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.6.1",
+            "version": "v3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "2a7dcf7e3e02dc5e701004e51a6f304b713107d5"
+                "reference": "1bdf24f065975594f6a117f0f1f6cabf1333b156"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/2a7dcf7e3e02dc5e701004e51a6f304b713107d5",
-                "reference": "2a7dcf7e3e02dc5e701004e51a6f304b713107d5",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/1bdf24f065975594f6a117f0f1f6cabf1333b156",
+                "reference": "1bdf24f065975594f6a117f0f1f6cabf1333b156",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9",
+                "php": "^5.4 || ^7.0",
+                "phpoption/phpoption": "^1.5",
                 "symfony/polyfill-ctype": "^1.9"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35 || ^5.0"
+                "phpunit/phpunit": "^4.8.35 || ^5.0 || ^6.0 || ^7.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.6-dev"
+                    "dev-master": "3.6-dev"
                 }
             },
             "autoload": {
@@ -3687,9 +3774,14 @@
             ],
             "authors": [
                 {
+                    "name": "Graham Campbell",
+                    "email": "graham@alt-three.com",
+                    "homepage": "https://gjcampbell.co.uk/"
+                },
+                {
                     "name": "Vance Lucas",
                     "email": "vance@vancelucas.com",
-                    "homepage": "http://www.vancelucas.com"
+                    "homepage": "https://vancelucas.com/"
                 }
             ],
             "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
@@ -3698,7 +3790,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2019-01-29T11:11:52+00:00"
+            "time": "2019-09-10T21:37:39+00:00"
         },
         {
             "name": "webmozart/assert",
