@@ -14,7 +14,7 @@
         "laravel/lumen-framework": "^5.7.0",
         "league/flysystem": "^1.0",
         "jonathan-martz/lumen-exeception-to-json": "^0.2.8",
-        "jonathan-martz/lumen-borat-controller": "^0.1.10",
+        "jonathan-martz/lumen-borat-controller": "^0.2",
         "phan/phan": "^1.1"
     },
     "require-dev": {
