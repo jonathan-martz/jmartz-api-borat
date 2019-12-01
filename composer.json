@@ -15,7 +15,7 @@
         "league/flysystem": "^1.0",
         "jonathan-martz/lumen-exeception-to-json": "^0.2.8",
         "jonathan-martz/lumen-borat-controller": "^0.2",
-        "phan/phan": "^1.1"
+        "phan/phan": "^2.4"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
