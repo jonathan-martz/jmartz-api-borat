@@ -2148,16 +2148,16 @@
         },
         {
             "name": "phan/phan",
-            "version": "2.4.4",
+            "version": "2.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phan/phan.git",
-                "reference": "9236f30e5b6ccb582ebc77b1635eabe08bdecf9e"
+                "reference": "12f64e878084244ca92d1ac83e58a668640f6f1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phan/phan/zipball/9236f30e5b6ccb582ebc77b1635eabe08bdecf9e",
-                "reference": "9236f30e5b6ccb582ebc77b1635eabe08bdecf9e",
+                "url": "https://api.github.com/repos/phan/phan/zipball/12f64e878084244ca92d1ac83e58a668640f6f1d",
+                "reference": "12f64e878084244ca92d1ac83e58a668640f6f1d",
                 "shasum": ""
             },
             "require": {
@@ -2171,7 +2171,7 @@
                 "netresearch/jsonmapper": "^1.6.0",
                 "php": "^7.1.0",
                 "sabre/event": "^5.0",
-                "symfony/console": "^2.3|^3.0|~4.0",
+                "symfony/console": "^2.3|^3.0|^4.0|^5.0",
                 "symfony/polyfill-mbstring": "^1.11.0"
             },
             "require-dev": {
@@ -2217,7 +2217,7 @@
                 "php",
                 "static"
             ],
-            "time": "2019-11-24T16:38:38+00:00"
+            "time": "2019-12-11T01:03:28+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -2629,16 +2629,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v4.4.0",
+            "version": "v4.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "35d9077f495c6d184d9930f7a7ecbd1ad13c7ab8"
+                "reference": "f0aea3df20d15635b3cb9730ca5eea1c65b7f201"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/35d9077f495c6d184d9930f7a7ecbd1ad13c7ab8",
-                "reference": "35d9077f495c6d184d9930f7a7ecbd1ad13c7ab8",
+                "url": "https://api.github.com/repos/symfony/console/zipball/f0aea3df20d15635b3cb9730ca5eea1c65b7f201",
+                "reference": "f0aea3df20d15635b3cb9730ca5eea1c65b7f201",
                 "shasum": ""
             },
             "require": {
@@ -2701,7 +2701,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2019-11-13T07:39:40+00:00"
+            "time": "2019-12-01T10:06:17+00:00"
         },
         {
             "name": "symfony/debug",
