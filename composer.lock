@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "22b9f7291afd262ee35143439985c205",
+    "content-hash": "6b532aab72d608a9939760630498197e",
     "packages": [
         {
             "name": "composer/semver",
@@ -1565,21 +1565,21 @@
         },
         {
             "name": "jonathan-martz/lumen-controller",
-            "version": "0.2.2",
+            "version": "0.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonathan-martz/lumen-controller.git",
-                "reference": "a2640827e5a92a4f817ba7563cd1da9e1d9657af"
+                "reference": "72744f66540ac009ae74b5bde52f586ff8034398"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller/zipball/a2640827e5a92a4f817ba7563cd1da9e1d9657af",
-                "reference": "a2640827e5a92a4f817ba7563cd1da9e1d9657af",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller/zipball/72744f66540ac009ae74b5bde52f586ff8034398",
+                "reference": "72744f66540ac009ae74b5bde52f586ff8034398",
                 "shasum": ""
             },
             "require": {
-                "laravel/lumen-framework": "^5.6.0",
-                "php": "^7.1"
+                "laravel/lumen-framework": "^5.6|^6.0",
+                "php": "^7.1|^7.2|^7.3|^7.4"
             },
             "type": "library",
             "autoload": {
@@ -1588,6 +1588,9 @@
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "Jonathan Martz",
@@ -1597,25 +1600,25 @@
                 }
             ],
             "description": "Php Lumen Controller to organise response",
-            "time": "2019-10-04T11:00:58+00:00"
+            "time": "2019-12-14T17:42:26+00:00"
         },
         {
             "name": "jonathan-martz/lumen-exeception-to-json",
-            "version": "0.2.9",
+            "version": "0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonathan-martz/lumen-exeception-to-json.git",
-                "reference": "3c390a3a8777e6d38d22f2bd1433f8ba1ea42411"
+                "reference": "84311e63e7ac7491888a9372a7c78f10d701a398"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonathan-martz/lumen-exeception-to-json/zipball/3c390a3a8777e6d38d22f2bd1433f8ba1ea42411",
-                "reference": "3c390a3a8777e6d38d22f2bd1433f8ba1ea42411",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-exeception-to-json/zipball/84311e63e7ac7491888a9372a7c78f10d701a398",
+                "reference": "84311e63e7ac7491888a9372a7c78f10d701a398",
                 "shasum": ""
             },
             "require": {
                 "jonathan-martz/lumen-controller": "^0.2",
-                "laravel/lumen-framework": "^5.8.0",
+                "laravel/lumen-framework": "^5.6|^6.0",
                 "php": "^7.0"
             },
             "type": "library",
@@ -1625,6 +1628,9 @@
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "Jonathan Martz",
@@ -1634,7 +1640,7 @@
                 }
             ],
             "description": "Php Lumen handle api execption.",
-            "time": "2019-10-30T09:54:12+00:00"
+            "time": "2019-12-14T20:34:07+00:00"
         },
         {
             "name": "laravel/lumen-framework",
