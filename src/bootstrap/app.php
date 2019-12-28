@@ -76,6 +76,7 @@ $app->singleton(
 */
 
 $app->register(App\Providers\AppServiceProvider::class);
+$app->register(App\Providers\BoratProvider::class);
 // $app->register(App\Providers\EventServiceProvider::class);
 
 

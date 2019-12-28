@@ -13,8 +13,8 @@
         "php": "^7.3",
         "laravel/lumen-framework": "^5.7.0",
         "league/flysystem": "^1.0",
-        "jonathan-martz/lumen-exeception-to-json": "^0.2.8",
-        "jonathan-martz/lumen-borat-controller": "^0.2"
+        "jonathan-martz/lumen-exeception-to-json": "^0.3",
+        "jonathan-martz/lumen-controller-borat": "^0.2"
     },
     "autoload": {
         "psr-4": {
