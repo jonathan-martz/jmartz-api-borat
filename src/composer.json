@@ -1,5 +1,5 @@
 {
-    "name": "jmartz-api",
+    "name": "jonathan-martz/jmartz-api",
     "description": "Jmartz",
     "keywords": [
         "jmartz",
@@ -10,12 +10,11 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "php": ">=7.1.3",
+        "php": "^7.3",
         "laravel/lumen-framework": "^5.7.0",
         "league/flysystem": "^1.0",
         "jonathan-martz/lumen-exeception-to-json": "^0.2.8",
-        "jonathan-martz/lumen-borat-controller": "^0.2",
-        "phan/phan": "^1.1"
+        "jonathan-martz/lumen-borat-controller": "^0.2"
     },
     "autoload": {
         "psr-4": {
