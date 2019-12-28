@@ -1,28 +1,37 @@
 <?php
 
-class RoboFile extends \Robo\Tasks
-{
-    public function composerInstall()
-    {
-		$this->stopOnFail(true);
-        $this->taskComposerInstall()
-            ->ignorePlatformRequirements()
-            ->run();
-    }
+use Robo\Tasks;
 
-	public function phanCheck(){
+class RoboFile extends Tasks
+{
+	public function composerInstall()
+	{
+		$this->stopOnFail(true);
+		$this->taskComposerInstall()
+			->workingDir('.')
+			->ignorePlatformRequirements()
+			->run();
+
+		$this->taskComposerInstall()
+			->workingDir('./src')
+			->ignorePlatformRequirements()
+			->run();
+	}
+
+	public function phanCheck()
+	{
 		$this->stopOnFail(false);
-    	$filename = 'storage/logs/phan.json';
-		$this->_exec('vendor/bin/phan -m json -o '.$filename.' --dead-code-detection --unused-variable-detection');
-		if(\file_exists($filename)){
-			$json = \file_get_contents($filename);
-			$errors = \json_decode($json);
-			if(count($errors) !== 0){
+		$filename = 'storage/logs/phan.json';
+		$this->_exec('vendor/bin/phan -m json -o ' . $filename . ' --dead-code-detection --unused-variable-detection');
+		if (file_exists($filename)) {
+			$json = file_get_contents($filename);
+			$errors = json_decode($json);
+			if (count($errors) !== 0) {
 				exit("Phan detected some errors take a look at log/phan.json and fix the errors.");
 			}
 		}
 		$this->stopOnFail(true);
-    }
+	}
 
 
 	public function deployProduction(){
