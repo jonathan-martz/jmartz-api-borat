@@ -78,6 +78,14 @@ $app->singleton(
 $app->register(App\Providers\AppServiceProvider::class);
 // $app->register(App\Providers\EventServiceProvider::class);
 
+
+/*
+ * Load Config Files
+ */
+
+$app->configure('database');
+$app->configure('filesystems');
+
 /*
 |--------------------------------------------------------------------------
 | Load The Application Routes
@@ -88,13 +96,11 @@ $app->register(App\Providers\AppServiceProvider::class);
 | can respond to, as well as the controllers that may handle them.
 |
 */
-
 $app->router->group([
     'namespace' => 'App\Http\Controllers',
 ], function ($router) {
     require __DIR__.'/../routes/web.php';
 });
 
-	$app->configure('auth');
 
 return $app;
