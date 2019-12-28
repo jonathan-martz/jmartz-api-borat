@@ -21,7 +21,7 @@ class RoboFile extends Tasks
 	public function phanCheck()
 	{
 		$this->stopOnFail(false);
-		$filename = 'storage/logs/phan.json';
+		$filename = 'src/storage/logs/phan.json';
 		$this->_exec('vendor/bin/phan -m json -o ' . $filename . ' --dead-code-detection --unused-variable-detection');
 		if (file_exists($filename)) {
 			$json = file_get_contents($filename);
