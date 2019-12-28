@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phan/phan": "^2.4",
+        "ext-json": "*"
+    }
+}
