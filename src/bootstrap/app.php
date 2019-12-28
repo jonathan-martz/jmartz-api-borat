@@ -60,9 +60,10 @@ $app->singleton(
 |
 */
 
-// $app->middleware([
-//    App\Http\Middleware\ExampleMiddleware::class
-// ]);
+$app->routeMiddleware([
+    'xss' => App\Http\Middleware\Xss::class,
+    'https' => App\Http\Middleware\Https::class
+]);
 
 /*
 |--------------------------------------------------------------------------
