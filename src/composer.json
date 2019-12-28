@@ -21,12 +21,6 @@
             "App\\": "app/"
         }
     },
-    "autoload-dev": {
-        "classmap": [
-            "tests/",
-            "database/"
-        ]
-    },
     "config": {
         "optimize-autoloader": true
     }
