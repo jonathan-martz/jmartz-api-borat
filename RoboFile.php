@@ -4,6 +4,9 @@ use Robo\Tasks;
 
 class RoboFile extends Tasks
 {
+	/**
+	 * @todo refactor deployment like hetzner-cloud-api
+	 */
 	public function composerInstall()
 	{
 		$this->stopOnFail(true);
