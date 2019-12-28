@@ -73,9 +73,9 @@ class RoboFile extends Tasks
 			 ->run();
 
 		$this->taskSshExec($host, $user)
-			 ->remoteDir('/var/www/' . $folder)
-			 ->exec('rm current')
-			 ->exec('ln -sd /var/www/' . $folder . '/releases/' . $tmp . '/public current')
+			->remoteDir('/var/www/' . $folder)
+			->exec('rm current')
+			->exec('ln -sd /var/www/' . $folder . '/releases/' . $tmp . '/src/public current')
 			 ->run();
 
 		$this->taskSshExec($host, $user)
