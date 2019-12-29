@@ -103,8 +103,8 @@ class RoboFile extends Tasks
 			 ->run();
 
 		$this->taskSshExec($host, $user)
-			 ->remoteDir('/var/www/' . $folder)
-			 ->exec('service php7.2-fpm restart')
+			->remoteDir('/var/www/' . $folder)
+			->exec('service php7.3-fpm restart')
 			 ->run();
 	}
 }
