@@ -89,23 +89,31 @@ class RoboFile extends Tasks
 
 		$this->taskSshExec($host, $user)
 			->remoteDir('/var/www/' . $folder . '/releases/current/src')
-			 ->exec('ln -s /var/www/' . $folder . '/shared/.env')
-			 ->run();
+			->exec('ln -s /var/www/' . $folder . '/shared/.env')
+			->run();
 
 		$this->taskSshExec($host, $user)
-			 ->remoteDir('/var/www/' . $folder.'/releases/current')
-			 ->exec('ln -sd /var/www/' . $folder . '/shared/log')
-			 ->run();
+			->remoteDir('/var/www/' . $folder . '/releases/current')
+			->exec('ln -sd /var/www/' . $folder . '/shared/log')
+			->run();
 
 		$this->taskSshExec($host, $user)
-			 ->remoteDir('/var/www/' . $folder)
-			 ->exec('chown -R www-data:www-data /var/www/' . $folder)
-			 ->run();
+			->remoteDir('/var/www/' . $folder . '/releases/' . $tmp . '/src')
+			->exec('mkdir -p storage/framework/sessions')
+			->exec('mkdir -p storage/framework/views')
+			->exec('mkdir -p storage/framework/')
+			->exec('chown -R www-data:www-data storage')
+			->run();
+
+		$this->taskSshExec($host, $user)
+			->remoteDir('/var/www/' . $folder)
+			->exec('chown -R www-data:www-data /var/www/' . $folder)
+			->run();
 
 		$this->taskSshExec($host, $user)
 			->remoteDir('/var/www/' . $folder)
 			->exec('service php7.3-fpm restart')
-			 ->run();
+			->run();
 	}
 }
 
