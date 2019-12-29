@@ -84,6 +84,7 @@ $app->register(App\Providers\ModelUserProvider::class);
 $app->register(App\Providers\RegisterProvider::class);
 $app->register(App\Providers\LoginProvider::class);
 $app->register(App\Providers\AdminRoleProvider::class);
+$app->register(App\Providers\HetznerMailProvider::class);
 $app->register(Illuminate\Mail\MailServiceProvider::class);
 
 

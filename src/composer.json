@@ -18,7 +18,7 @@
         "jonathan-martz/lumen-controller-login": "^0.3",
         "jonathan-martz/lumen-controller-register": "^0.3",
         "jonathan-martz/lumen-controller-user-activate": "^0.1",
-        "jonathan-martz/lumen-hetzner-mail-templates": "^0.1",
+        "jonathan-martz/lumen-borat-mail-templates": "^0.1",
         "guzzlehttp/guzzle": "^6.5",
         "illuminate/mail": "^6.8",
         "laravelista/lumen-vendor-publish": "^6.0"
