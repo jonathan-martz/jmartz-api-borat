@@ -54,3 +54,5 @@ INSERT INTO packages (vendor,module,type,fullname,repo)
         VALUES ("jonathan-martz","lumen-model-user","public","jonathan-martz/lumen-model-user","git@github.com:jonathan-martz/lumen-model-user.git");
 INSERT INTO packages (vendor,module,type,fullname,repo)
         VALUES ("jonathan-martz","lumen-provider-auth","public","jonathan-martz/lumen-provider-auth","git@github.com:jonathan-martz/lumen-provider-auth.git");
+INSERT INTO packages (vendor,module,type,fullname,repo)
+VALUES ("laravel","lumen-framework","public","laravel/lumen-framework","git@github.com:laravel/lumen-framework.git");
