@@ -1857,16 +1857,16 @@
         },
         {
             "name": "jonathan-martz/lumen-controller-register",
-            "version": "0.3.4",
+            "version": "0.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonathan-martz/lumen-controller-register.git",
-                "reference": "6efdd924692d98a72b77eb7fdb3735ab794d3ff4"
+                "reference": "4a879dbdc77d9a53df40169dcb5fcc57f67c54f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-register/zipball/6efdd924692d98a72b77eb7fdb3735ab794d3ff4",
-                "reference": "6efdd924692d98a72b77eb7fdb3735ab794d3ff4",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-register/zipball/4a879dbdc77d9a53df40169dcb5fcc57f67c54f4",
+                "reference": "4a879dbdc77d9a53df40169dcb5fcc57f67c54f4",
                 "shasum": ""
             },
             "require": {
@@ -1905,20 +1905,20 @@
                 }
             ],
             "description": "Php Lumen Register Controller",
-            "time": "2019-12-29T20:23:58+00:00"
+            "time": "2019-12-29T20:30:55+00:00"
         },
         {
             "name": "jonathan-martz/lumen-controller-user-activate",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonathan-martz/lumen-controller-user-activate.git",
-                "reference": "70de1be16d3b2692b5c9dc6b5d0d03a98d741610"
+                "reference": "5b9ca1f358fa96aa4c3400241e5114d19b4fb318"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-user-activate/zipball/70de1be16d3b2692b5c9dc6b5d0d03a98d741610",
-                "reference": "70de1be16d3b2692b5c9dc6b5d0d03a98d741610",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-user-activate/zipball/5b9ca1f358fa96aa4c3400241e5114d19b4fb318",
+                "reference": "5b9ca1f358fa96aa4c3400241e5114d19b4fb318",
                 "shasum": ""
             },
             "require": {
@@ -1953,7 +1953,7 @@
                 }
             ],
             "description": "Php Lumen User Activate Controller",
-            "time": "2019-12-29T20:14:45+00:00"
+            "time": "2019-12-29T20:36:11+00:00"
         },
         {
             "name": "jonathan-martz/lumen-exeception-to-json",
