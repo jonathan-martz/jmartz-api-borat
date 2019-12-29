@@ -78,15 +78,15 @@ $app->routeMiddleware([
 
 $app->register(App\Providers\AppServiceProvider::class);
 $app->register(App\Providers\BoratProvider::class);
+$app->register(App\Providers\BaseRoleProvider::class);
 $app->register(App\Providers\UserRoleProvider::class);
+$app->register(App\Providers\AdminRoleProvider::class);
 $app->register(App\Providers\UserActivateProvider::class);
 $app->register(App\Providers\ModelUserProvider::class);
 $app->register(App\Providers\RegisterProvider::class);
 $app->register(App\Providers\LoginProvider::class);
-$app->register(App\Providers\AdminRoleProvider::class);
-$app->register(App\Providers\HetznerMailProvider::class);
+$app->register(App\Providers\BoratMailProvider::class);
 $app->register(Illuminate\Mail\MailServiceProvider::class);
-
 
 /*
  * Load Mailer stuff
