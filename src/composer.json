@@ -14,7 +14,10 @@
         "laravel/lumen-framework": "^5.7.0",
         "league/flysystem": "^1.0",
         "jonathan-martz/lumen-exeception-to-json": "^0.3",
-        "jonathan-martz/lumen-controller-borat": "^0.2"
+        "jonathan-martz/lumen-controller-borat": "^0.2",
+        "jonathan-martz/lumen-controller-login": "^0.3",
+        "jonathan-martz/lumen-controller-register": "^0.3",
+        "jonathan-martz/lumen-controller-user-activate": "^0.1"
     },
     "autoload": {
         "psr-4": {
@@ -22,6 +25,10 @@
         }
     },
     "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
         "optimize-autoloader": true
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
