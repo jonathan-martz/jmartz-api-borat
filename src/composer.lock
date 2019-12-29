@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9902b9581ca5bb7f23aca6b10dbd9102",
+    "content-hash": "a9cce8544157a3cd6840a759a54e0588",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -1947,6 +1947,53 @@
             ],
             "description": "Php Lumen handle api execption.",
             "time": "2019-12-14T20:34:07+00:00"
+        },
+        {
+            "name": "jonathan-martz/lumen-hetzner-mail-templates",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jonathan-martz/lumen-hetzner-mail-templates.git",
+                "reference": "0b3a326b55c21d4e9b92041263bde6da821cb10e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-hetzner-mail-templates/zipball/0b3a326b55c21d4e9b92041263bde6da821cb10e",
+                "reference": "0b3a326b55c21d4e9b92041263bde6da821cb10e",
+                "shasum": ""
+            },
+            "require": {
+                "jonathan-martz/lumen-controller": "^0.2",
+                "laravel/lumen-framework": "^5.6|^6.0",
+                "php": "^7.1|^7.2|^7.3|^7.4"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "App\\Providers\\HetznerMailsProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "provider/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Martz",
+                    "email": "composer@jmartz.de",
+                    "homepage": "https://www.jmartz.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Php Lumen Hetzner Mail Templates",
+            "time": "2019-12-27T17:25:40+00:00"
         },
         {
             "name": "jonathan-martz/lumen-middelware-https",
