@@ -84,12 +84,20 @@ $app->register(App\Providers\ModelUserProvider::class);
 $app->register(App\Providers\RegisterProvider::class);
 $app->register(App\Providers\LoginProvider::class);
 $app->register(App\Providers\AdminRoleProvider::class);
+$app->register(Illuminate\Mail\MailServiceProvider::class);
 
+
+/*
+ * Load Mailer stuff
+ */
+$app->alias('mailer', Illuminate\Mail\Mailer::class);
+$app->alias('mailer', Illuminate\Contracts\Mail\Mailer::class);
+$app->alias('mailer', Illuminate\Contracts\Mail\MailQueue::class);
 
 /*
  * Load Config Files
  */
-
+$app->configure('mail');
 $app->configure('database');
 $app->configure('filesystems');
 
