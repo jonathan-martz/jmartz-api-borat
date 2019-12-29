@@ -61,6 +61,7 @@ $app->singleton(
 */
 
 $app->routeMiddleware([
+    'auth' => App\Http\Middleware\Authenticate::class,
     'xss' => App\Http\Middleware\Xss::class,
     'https' => App\Http\Middleware\Https::class
 ]);
