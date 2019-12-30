@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fdb01d696eef9024ceaed9d716d53ca1",
+    "content-hash": "9a4be377653ee1e0a0becb64a9b21916",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -1808,16 +1808,16 @@
         },
         {
             "name": "jonathan-martz/lumen-controller-borat-all",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonathan-martz/lumen-controller-borat-all.git",
-                "reference": "5e12fb206c0bf073517ccd7f73d0a5452347f756"
+                "reference": "e6cf510daa411de9b07711a5fc600751004e390d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-borat-all/zipball/5e12fb206c0bf073517ccd7f73d0a5452347f756",
-                "reference": "5e12fb206c0bf073517ccd7f73d0a5452347f756",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-borat-all/zipball/e6cf510daa411de9b07711a5fc600751004e390d",
+                "reference": "e6cf510daa411de9b07711a5fc600751004e390d",
                 "shasum": ""
             },
             "require": {
@@ -1852,55 +1852,7 @@
                 }
             ],
             "description": "Php Lumen Borat All Controller",
-            "time": "2019-12-29T22:20:10+00:00"
-        },
-        {
-            "name": "jonathan-martz/lumen-controller-borat-users",
-            "version": "0.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jonathan-martz/lumen-controller-borat-users.git",
-                "reference": "c190721df88ae48cd2c3b7252a3bf3aa9454fdaa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-borat-users/zipball/c190721df88ae48cd2c3b7252a3bf3aa9454fdaa",
-                "reference": "c190721df88ae48cd2c3b7252a3bf3aa9454fdaa",
-                "shasum": ""
-            },
-            "require": {
-                "jonathan-martz/lumen-controller": "^0.2",
-                "jonathan-martz/lumen-middelware-auth": "^0.2",
-                "jonathan-martz/lumen-middelware-https": "^0.1",
-                "jonathan-martz/lumen-middelware-xss": "^0.1",
-                "laravel/lumen-framework": "^6.2.0",
-                "php": "^7.3|^7.4"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "App\\Providers\\BoratUsersProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "controller/",
-                    "provider/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Jonathan Martz",
-                    "email": "composer@jmartz.de",
-                    "homepage": "https://www.jmartz.de",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Php Lumen Borat Users Controller",
-            "time": "2019-12-29T22:20:49+00:00"
+            "time": "2019-12-30T22:22:17+00:00"
         },
         {
             "name": "jonathan-martz/lumen-controller-login",
@@ -2055,16 +2007,16 @@
         },
         {
             "name": "jonathan-martz/lumen-cronjob-user-activate",
-            "version": "0.1.2",
+            "version": "0.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonathan-martz/lumen-cronjob-user-activate.git",
-                "reference": "33823e771ef90c08df54437a13e4a954999ddb4e"
+                "reference": "def875fc442edd563387b1651d5a72f38762e0ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonathan-martz/lumen-cronjob-user-activate/zipball/33823e771ef90c08df54437a13e4a954999ddb4e",
-                "reference": "33823e771ef90c08df54437a13e4a954999ddb4e",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-cronjob-user-activate/zipball/def875fc442edd563387b1651d5a72f38762e0ec",
+                "reference": "def875fc442edd563387b1651d5a72f38762e0ec",
                 "shasum": ""
             },
             "require": {
@@ -2102,7 +2054,7 @@
                 }
             ],
             "description": "Php Lumen Cronjob User Activate Mail",
-            "time": "2019-12-30T17:48:19+00:00"
+            "time": "2019-12-30T18:43:36+00:00"
         },
         {
             "name": "jonathan-martz/lumen-exeception-to-json",
@@ -2463,16 +2415,16 @@
         },
         {
             "name": "laravel/lumen-framework",
-            "version": "v6.2.0",
+            "version": "v6.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/lumen-framework.git",
-                "reference": "a19015569890fadfb70c8af23d072016fab83cba"
+                "reference": "ffa356c72e374b6a2c4e8880378f3133cb3b7385"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/lumen-framework/zipball/a19015569890fadfb70c8af23d072016fab83cba",
-                "reference": "a19015569890fadfb70c8af23d072016fab83cba",
+                "url": "https://api.github.com/repos/laravel/lumen-framework/zipball/ffa356c72e374b6a2c4e8880378f3133cb3b7385",
+                "reference": "ffa356c72e374b6a2c4e8880378f3133cb3b7385",
                 "shasum": ""
             },
             "require": {
@@ -2543,7 +2495,7 @@
                 "laravel",
                 "lumen"
             ],
-            "time": "2019-10-15T18:30:14+00:00"
+            "time": "2019-12-26T14:51:41+00:00"
         },
         {
             "name": "laravelista/lumen-vendor-publish",
