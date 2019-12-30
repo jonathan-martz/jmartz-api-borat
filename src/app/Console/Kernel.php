@@ -2,6 +2,7 @@
 
 namespace App\Console;
 
+use App\Console\Commands\EmailUserActivateCommand;
 use Illuminate\Console\Scheduling\Schedule;
 use Laravel\Lumen\Console\Kernel as ConsoleKernel;
 use Laravelista\LumenVendorPublish\VendorPublishCommand;
@@ -14,7 +15,8 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        VendorPublishCommand::class
+        VendorPublishCommand::class,
+        EmailUserActivateCommand::class
     ];
 
     /**
@@ -25,6 +27,6 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        //
+        // $schedule->command('email:user:activate')->everyMinute();
     }
 }
