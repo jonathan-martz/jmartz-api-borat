@@ -1,20 +1,20 @@
 {
-  "_readme": [
-    "This file locks the dependencies of your project to a known state",
-    "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
-    "This file is @generated automatically"
-  ],
-  "content-hash": "fdb01d696eef9024ceaed9d716d53ca1",
-  "packages": [
-    {
-      "name": "doctrine/inflector",
-      "version": "1.3.1",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/doctrine/inflector.git",
-        "reference": "ec3a55242203ffa6a4b27c58176da97ff0a7aec1"
-      },
-      "dist": {
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "fdb01d696eef9024ceaed9d716d53ca1",
+    "packages": [
+        {
+            "name": "doctrine/inflector",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/inflector.git",
+                "reference": "ec3a55242203ffa6a4b27c58176da97ff0a7aec1"
+            },
+            "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/doctrine/inflector/zipball/ec3a55242203ffa6a4b27c58176da97ff0a7aec1",
                 "reference": "ec3a55242203ffa6a4b27c58176da97ff0a7aec1",
@@ -1660,73 +1660,73 @@
                 "MIT"
             ],
             "authors": [
-              {
-                "name": "Taylor Otwell",
-                "email": "taylor@laravel.com"
-              }
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
             ],
-          "description": "The Illuminate View package.",
-          "homepage": "https://laravel.com",
-          "time": "2019-12-05T12:05:44+00:00"
+            "description": "The Illuminate View package.",
+            "homepage": "https://laravel.com",
+            "time": "2019-12-05T12:05:44+00:00"
         },
-    {
-      "name": "jonathan-martz/lumen-borat-mail-templates",
-      "version": "0.1",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/jonathan-martz/lumen-borat-mail-templates.git",
-        "reference": "3bab255c460e5f8a0d6a3d114773cb7a7c333b50"
-      },
-      "dist": {
-        "type": "zip",
-        "url": "https://api.github.com/repos/jonathan-martz/lumen-borat-mail-templates/zipball/3bab255c460e5f8a0d6a3d114773cb7a7c333b50",
-        "reference": "3bab255c460e5f8a0d6a3d114773cb7a7c333b50",
-        "shasum": ""
-      },
-      "require": {
-        "jonathan-martz/lumen-controller": "^0.2",
-        "laravel/lumen-framework": "^5.6|^6.0",
-        "php": "^7.1|^7.2|^7.3|^7.4"
-      },
-      "type": "library",
-      "extra": {
-        "laravel": {
-          "providers": [
-            "App\\Providers\\BoratMailsProvider"
-          ]
-        }
-      },
-      "autoload": {
-        "classmap": [
-          "provider/"
-        ]
-      },
-      "notification-url": "https://packagist.org/downloads/",
-      "license": [
-        "MIT"
-      ],
-      "authors": [
         {
-          "name": "Jonathan Martz",
-          "email": "composer@jmartz.de",
-          "homepage": "https://www.jmartz.de",
-          "role": "Developer"
-        }
-      ],
-      "description": "Php Lumen Borat Mail Templates",
-      "time": "2019-12-29T19:02:41+00:00"
-    },
-    {
-      "name": "jonathan-martz/lumen-controller",
-      "version": "0.2.9",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/jonathan-martz/lumen-controller.git",
-        "reference": "0ab8c9d70004d014acc24d30db48266804a00fbc"
-      },
-      "dist": {
-        "type": "zip",
-        "url": "https://api.github.com/repos/jonathan-martz/lumen-controller/zipball/0ab8c9d70004d014acc24d30db48266804a00fbc",
+            "name": "jonathan-martz/lumen-borat-mail-templates",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jonathan-martz/lumen-borat-mail-templates.git",
+                "reference": "3bab255c460e5f8a0d6a3d114773cb7a7c333b50"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-borat-mail-templates/zipball/3bab255c460e5f8a0d6a3d114773cb7a7c333b50",
+                "reference": "3bab255c460e5f8a0d6a3d114773cb7a7c333b50",
+                "shasum": ""
+            },
+            "require": {
+                "jonathan-martz/lumen-controller": "^0.2",
+                "laravel/lumen-framework": "^5.6|^6.0",
+                "php": "^7.1|^7.2|^7.3|^7.4"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "App\\Providers\\BoratMailsProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "provider/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Martz",
+                    "email": "composer@jmartz.de",
+                    "homepage": "https://www.jmartz.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Php Lumen Borat Mail Templates",
+            "time": "2019-12-29T19:02:41+00:00"
+        },
+        {
+            "name": "jonathan-martz/lumen-controller",
+            "version": "0.2.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jonathan-martz/lumen-controller.git",
+                "reference": "0ab8c9d70004d014acc24d30db48266804a00fbc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller/zipball/0ab8c9d70004d014acc24d30db48266804a00fbc",
                 "reference": "0ab8c9d70004d014acc24d30db48266804a00fbc",
                 "shasum": ""
             },
@@ -2005,21 +2005,72 @@
             "time": "2019-12-30T16:52:18+00:00"
         },
         {
-            "name": "jonathan-martz/lumen-cronjob-user-activate",
-            "version": "0.1.1",
+            "name": "jonathan-martz/lumen-controller-user-activate",
+            "version": "0.1.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jonathan-martz/lumen-cronjob-mailer-user-activate.git",
-                "reference": "e8373d88e5834312b9fc143daee53257106719e8"
+                "url": "https://github.com/jonathan-martz/lumen-controller-user-activate.git",
+                "reference": "b4ae9d592847801d0994193355b3d1d9cdec5f9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonathan-martz/lumen-cronjob-mailer-user-activate/zipball/e8373d88e5834312b9fc143daee53257106719e8",
-                "reference": "e8373d88e5834312b9fc143daee53257106719e8",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-user-activate/zipball/b4ae9d592847801d0994193355b3d1d9cdec5f9a",
+                "reference": "b4ae9d592847801d0994193355b3d1d9cdec5f9a",
+                "shasum": ""
+            },
+            "require": {
+                "jonathan-martz/lumen-controller": "^0.2",
+                "jonathan-martz/lumen-cronjob-user-activate": "^0.1",
+                "laravel/lumen-framework": "^5.6|^6.0",
+                "php": "^7.1|^7.2|^7.3|^7.4"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "App\\Providers\\UserActivateProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "controller/",
+                    "provider/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Martz",
+                    "email": "composer@jmartz.de",
+                    "homepage": "https://www.jmartz.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Php Lumen User Activate Controller",
+            "time": "2019-12-30T17:23:15+00:00"
+        },
+        {
+            "name": "jonathan-martz/lumen-cronjob-user-activate",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jonathan-martz/lumen-cronjob-user-activate.git",
+                "reference": "33823e771ef90c08df54437a13e4a954999ddb4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-cronjob-user-activate/zipball/33823e771ef90c08df54437a13e4a954999ddb4e",
+                "reference": "33823e771ef90c08df54437a13e4a954999ddb4e",
                 "shasum": ""
             },
             "require": {
                 "ext-openssl": "*",
+                "jonathan-martz/lumen-controller-user-activate": "^0.1",
+                "jonathan-martz/lumen-model-user": "^0.1",
                 "laravel/lumen-framework": "^5.6|^6.0",
                 "php": "^7.1|^7.2|^7.3|^7.4"
             },
@@ -2051,7 +2102,7 @@
                 }
             ],
             "description": "Php Lumen Cronjob User Activate Mail",
-            "time": "2019-12-30T17:09:34+00:00"
+            "time": "2019-12-30T17:48:19+00:00"
         },
         {
             "name": "jonathan-martz/lumen-exeception-to-json",
