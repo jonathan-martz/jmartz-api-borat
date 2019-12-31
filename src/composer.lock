@@ -2149,21 +2149,22 @@
         },
         {
             "name": "jonathan-martz/lumen-middelware-auth",
-            "version": "0.2.3",
+            "version": "0.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonathan-martz/lumen-middelware-auth.git",
-                "reference": "4bf220a61151116dd26ab388469e1d13b9136c97"
+                "reference": "6e4e0cccde8bf495c230b06ba151276f18245a7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonathan-martz/lumen-middelware-auth/zipball/4bf220a61151116dd26ab388469e1d13b9136c97",
-                "reference": "4bf220a61151116dd26ab388469e1d13b9136c97",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-middelware-auth/zipball/6e4e0cccde8bf495c230b06ba151276f18245a7e",
+                "reference": "6e4e0cccde8bf495c230b06ba151276f18245a7e",
                 "shasum": ""
             },
             "require": {
                 "jonathan-martz/lumen-controller": "^0.2",
                 "jonathan-martz/lumen-model-user": "^0.1",
+                "jonathan-martz/lumen-provider-auth": "^0.2",
                 "laravel/lumen-framework": "^5.6|^6.0",
                 "php": "^7.1|^7.2|^7.3|^7.4"
             },
@@ -2186,7 +2187,7 @@
                 }
             ],
             "description": "Php Lumen Middelware Auth",
-            "time": "2019-12-29T23:03:01+00:00"
+            "time": "2019-12-31T19:08:12+00:00"
         },
         {
             "name": "jonathan-martz/lumen-middelware-https",
@@ -2463,6 +2464,47 @@
             ],
             "description": "Php Lumen Model User",
             "time": "2019-12-28T12:22:53+00:00"
+        },
+        {
+            "name": "jonathan-martz/lumen-provider-auth",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jonathan-martz/lumen-provider-auth.git",
+                "reference": "1458ed0039f1f4df094b42cd44c1b8680b0fd408"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-provider-auth/zipball/1458ed0039f1f4df094b42cd44c1b8680b0fd408",
+                "reference": "1458ed0039f1f4df094b42cd44c1b8680b0fd408",
+                "shasum": ""
+            },
+            "require": {
+                "jonathan-martz/lumen-controller": "^0.2",
+                "jonathan-martz/lumen-model-user": "^0.1",
+                "laravel/lumen-framework": "^5.6|^6.0",
+                "php": "^7.1|^7.2|^7.3|^7.4"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "provider/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Martz",
+                    "email": "composer@jmartz.de",
+                    "homepage": "https://www.jmartz.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Php Lumen Provider Auth",
+            "time": "2019-12-27T21:14:38+00:00"
         },
         {
             "name": "laravel/lumen-framework",
