@@ -2418,16 +2418,16 @@
         },
         {
             "name": "jonathan-martz/lumen-model-user",
-            "version": "0.1.8",
+            "version": "0.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonathan-martz/lumen-model-user.git",
-                "reference": "c17fedb856ec4dec43784a7c1080d03ce4c28830"
+                "reference": "513a0bd724661efe9cf2e13bf692a7b23e764568"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonathan-martz/lumen-model-user/zipball/c17fedb856ec4dec43784a7c1080d03ce4c28830",
-                "reference": "c17fedb856ec4dec43784a7c1080d03ce4c28830",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-model-user/zipball/513a0bd724661efe9cf2e13bf692a7b23e764568",
+                "reference": "513a0bd724661efe9cf2e13bf692a7b23e764568",
                 "shasum": ""
             },
             "require": {
@@ -2464,7 +2464,7 @@
                 }
             ],
             "description": "Php Lumen Model User",
-            "time": "2019-12-28T12:22:53+00:00"
+            "time": "2019-12-31T20:08:29+00:00"
         },
         {
             "name": "jonathan-martz/lumen-provider-auth",
