@@ -86,7 +86,7 @@ $app->register(App\Providers\ModelUserProvider::class);
 $app->register(App\Providers\RegisterProvider::class);
 $app->register(App\Providers\LoginProvider::class);
 $app->register(App\Providers\BoratAllProvider::class);
-$app->register(App\Providers\BoratUsersProvider::class);
+$app->register(App\Providers\UserProvider::class);
 $app->register(App\Providers\CronjobUserActivateProvider::class);
 $app->register(App\Providers\BoratMailProvider::class);
 $app->register(App\Providers\UserActivateProvider::class);
