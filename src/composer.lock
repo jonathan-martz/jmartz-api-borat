@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "45911b5ce0d329a42e24477b5e84d6dd",
+    "content-hash": "664c2e6b4f1bfe28aecf26e64dc6f175",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -1807,17 +1807,17 @@
             "time": "2019-12-28T23:19:01+00:00"
         },
         {
-            "name": "jonathan-martz/lumen-controller-borat-all",
-            "version": "0.1.2",
+            "name": "jonathan-martz/lumen-controller-borat-repos",
+            "version": "0.1.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jonathan-martz/lumen-controller-borat-all.git",
-                "reference": "e6cf510daa411de9b07711a5fc600751004e390d"
+                "url": "https://github.com/jonathan-martz/lumen-controller-borat-repos.git",
+                "reference": "46eebbd464383bb81731ec2c66de96eae1ff5cf3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-borat-all/zipball/e6cf510daa411de9b07711a5fc600751004e390d",
-                "reference": "e6cf510daa411de9b07711a5fc600751004e390d",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-borat-repos/zipball/46eebbd464383bb81731ec2c66de96eae1ff5cf3",
+                "reference": "46eebbd464383bb81731ec2c66de96eae1ff5cf3",
                 "shasum": ""
             },
             "require": {
@@ -1825,6 +1825,7 @@
                 "jonathan-martz/lumen-middelware-auth": "^0.2",
                 "jonathan-martz/lumen-middelware-https": "^0.1",
                 "jonathan-martz/lumen-middelware-xss": "^0.1",
+                "jonathan-martz/lumen-provider-auth": "^0.2",
                 "laravel/lumen-framework": "^6.2.0",
                 "php": "^7.3|^7.4"
             },
@@ -1832,7 +1833,7 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "App\\Providers\\BoratAllProvider"
+                        "App\\Providers\\BoratReposProvider"
                     ]
                 }
             },
@@ -1851,8 +1852,8 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Php Lumen Borat All Controller",
-            "time": "2019-12-30T22:22:17+00:00"
+            "description": "Php Lumen Borat Repos Controller",
+            "time": "2019-12-31T19:05:14+00:00"
         },
         {
             "name": "jonathan-martz/lumen-controller-login",
