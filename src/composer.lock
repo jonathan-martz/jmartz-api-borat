@@ -1718,16 +1718,16 @@
         },
         {
             "name": "jonathan-martz/lumen-command-admin-create",
-            "version": "0.1",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonathan-martz/lumen-command-admin-create.git",
-                "reference": "9cb58d40d649fe8d885cb22ccdc0b1a4f9de1caa"
+                "reference": "6083699ea070af35dde1694c57b488d4b9ad47d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonathan-martz/lumen-command-admin-create/zipball/9cb58d40d649fe8d885cb22ccdc0b1a4f9de1caa",
-                "reference": "9cb58d40d649fe8d885cb22ccdc0b1a4f9de1caa",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-command-admin-create/zipball/6083699ea070af35dde1694c57b488d4b9ad47d4",
+                "reference": "6083699ea070af35dde1694c57b488d4b9ad47d4",
                 "shasum": ""
             },
             "require": {
@@ -1753,7 +1753,7 @@
                 }
             ],
             "description": "Php Lumen Command Admin Create",
-            "time": "2020-01-01T22:13:31+00:00"
+            "time": "2020-01-01T23:00:54+00:00"
         },
         {
             "name": "jonathan-martz/lumen-controller",
@@ -1847,16 +1847,16 @@
         },
         {
             "name": "jonathan-martz/lumen-controller-borat-admin",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonathan-martz/lumen-controller-borat-admin.git",
-                "reference": "c9568d5d7cd929c543f3b6841d3cd1085b993728"
+                "reference": "1d1c298236fe2ffed15f3af9be7386cc0c39d533"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-borat-admin/zipball/c9568d5d7cd929c543f3b6841d3cd1085b993728",
-                "reference": "c9568d5d7cd929c543f3b6841d3cd1085b993728",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-borat-admin/zipball/1d1c298236fe2ffed15f3af9be7386cc0c39d533",
+                "reference": "1d1c298236fe2ffed15f3af9be7386cc0c39d533",
                 "shasum": ""
             },
             "require": {
@@ -1895,20 +1895,20 @@
                 }
             ],
             "description": "Php Lumen Borat Admin Controller",
-            "time": "2020-01-01T20:50:37+00:00"
+            "time": "2020-01-01T23:16:00+00:00"
         },
         {
             "name": "jonathan-martz/lumen-controller-borat-cache",
-            "version": "0.1.3",
+            "version": "0.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonathan-martz/lumen-controller-borat-cache.git",
-                "reference": "01d836a1546c71582ded95dcebe961d24b99d9da"
+                "reference": "d5ddaa472c2365219c277498e664df3c9aaba180"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-borat-cache/zipball/01d836a1546c71582ded95dcebe961d24b99d9da",
-                "reference": "01d836a1546c71582ded95dcebe961d24b99d9da",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-borat-cache/zipball/d5ddaa472c2365219c277498e664df3c9aaba180",
+                "reference": "d5ddaa472c2365219c277498e664df3c9aaba180",
                 "shasum": ""
             },
             "require": {
@@ -1946,20 +1946,20 @@
                 }
             ],
             "description": "Php Lumen Borat Cache Controller",
-            "time": "2020-01-01T20:49:35+00:00"
+            "time": "2020-01-01T23:18:25+00:00"
         },
         {
             "name": "jonathan-martz/lumen-controller-borat-repos",
-            "version": "0.1.3",
+            "version": "0.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonathan-martz/lumen-controller-borat-repos.git",
-                "reference": "46eebbd464383bb81731ec2c66de96eae1ff5cf3"
+                "reference": "8a8ffec5ada20cba8bb27aefa3ddc6af29ddb0a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-borat-repos/zipball/46eebbd464383bb81731ec2c66de96eae1ff5cf3",
-                "reference": "46eebbd464383bb81731ec2c66de96eae1ff5cf3",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-borat-repos/zipball/8a8ffec5ada20cba8bb27aefa3ddc6af29ddb0a4",
+                "reference": "8a8ffec5ada20cba8bb27aefa3ddc6af29ddb0a4",
                 "shasum": ""
             },
             "require": {
@@ -1995,20 +1995,20 @@
                 }
             ],
             "description": "Php Lumen Borat Repos Controller",
-            "time": "2019-12-31T19:05:14+00:00"
+            "time": "2020-01-01T23:15:14+00:00"
         },
         {
             "name": "jonathan-martz/lumen-controller-login",
-            "version": "0.4.1",
+            "version": "0.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonathan-martz/lumen-controller-login.git",
-                "reference": "a35dd7cde26c2524bff7be850c34a8ebb02781bf"
+                "reference": "f2a7fb0070d17bf9611a5f85d1378bdd11081432"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-login/zipball/a35dd7cde26c2524bff7be850c34a8ebb02781bf",
-                "reference": "a35dd7cde26c2524bff7be850c34a8ebb02781bf",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-login/zipball/f2a7fb0070d17bf9611a5f85d1378bdd11081432",
+                "reference": "f2a7fb0070d17bf9611a5f85d1378bdd11081432",
                 "shasum": ""
             },
             "require": {
@@ -2047,7 +2047,7 @@
                 }
             ],
             "description": "Php Lumen Login Controller",
-            "time": "2019-12-30T22:53:47+00:00"
+            "time": "2020-01-01T22:58:33+00:00"
         },
         {
             "name": "jonathan-martz/lumen-controller-register",
