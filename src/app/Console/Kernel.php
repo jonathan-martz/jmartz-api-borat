@@ -2,6 +2,7 @@
 
 namespace App\Console;
 
+use App\Console\Commands\AdminCreateCommand;
 use App\Console\Commands\EmailUserActivateCommand;
 use Illuminate\Console\Scheduling\Schedule;
 use Laravel\Lumen\Console\Kernel as ConsoleKernel;
@@ -16,7 +17,8 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         VendorPublishCommand::class,
-        EmailUserActivateCommand::class
+        EmailUserActivateCommand::class,
+        AdminCreateCommand::class
     ];
 
     /**
