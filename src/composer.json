@@ -11,7 +11,7 @@
     "type": "project",
     "require": {
         "php": "^7.3|^7.4",
-        "laravel/lumen-framework": "^6.2",
+        "laravel/lumen-framework": "^6.3",
         "league/flysystem": "^1.0",
         "jonathan-martz/lumen-exeception-to-json": "^0.3",
         "jonathan-martz/lumen-controller-borat": "^0.2",
@@ -22,6 +22,7 @@
         "jonathan-martz/lumen-borat-mail-templates": "^0.1",
         "jonathan-martz/lumen-controller-user": "^0.1",
         "jonathan-martz/lumen-controller-borat-cache": "^0.1",
+        "jonathan-martz/lumen-controller-borat-admin": "^0.1",
         "guzzlehttp/guzzle": "^6.5",
         "illuminate/mail": "^6.8",
         "laravelista/lumen-vendor-publish": "^6.0"

@@ -76,6 +76,10 @@ $app->routeMiddleware([
 | totally optional, so you are not required to uncomment this line.
 |
 */
+
+/**
+ * @todo create own module to auto register provider
+ */
 $app->register(App\Providers\AppServiceProvider::class);
 $app->register(App\Providers\BoratProvider::class);
 $app->register(App\Providers\BaseRoleProvider::class);
@@ -90,6 +94,7 @@ $app->register(App\Providers\UserProvider::class);
 $app->register(App\Providers\BoratCacheProvider::class);
 $app->register(App\Providers\CronjobUserActivateProvider::class);
 $app->register(App\Providers\BoratMailProvider::class);
+$app->register(App\Providers\BoratAdminProvider::class);
 $app->register(App\Providers\UserActivateProvider::class);
 $app->register(Illuminate\Mail\MailServiceProvider::class);
 
