@@ -96,6 +96,7 @@ $app->register(App\Providers\CronjobUserActivateProvider::class);
 $app->register(App\Providers\BoratMailProvider::class);
 $app->register(App\Providers\BoratAdminProvider::class);
 $app->register(App\Providers\UserActivateProvider::class);
+$app->register(App\Providers\ControllerProvider::class);
 $app->register(Illuminate\Mail\MailServiceProvider::class);
 
 /*
