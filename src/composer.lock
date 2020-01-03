@@ -1757,16 +1757,16 @@
         },
         {
             "name": "jonathan-martz/lumen-controller",
-            "version": "0.3.5",
+            "version": "0.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonathan-martz/lumen-controller.git",
-                "reference": "6071c52e9a4d7f8e8d2b1e006585eb955a088edc"
+                "reference": "23f742f3b6951a5010ad216ef61055e65dec6de8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller/zipball/6071c52e9a4d7f8e8d2b1e006585eb955a088edc",
-                "reference": "6071c52e9a4d7f8e8d2b1e006585eb955a088edc",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller/zipball/23f742f3b6951a5010ad216ef61055e65dec6de8",
+                "reference": "23f742f3b6951a5010ad216ef61055e65dec6de8",
                 "shasum": ""
             },
             "require": {
@@ -1802,7 +1802,7 @@
                 }
             ],
             "description": "Php Lumen Controller to organise response",
-            "time": "2020-01-03T21:06:42+00:00"
+            "time": "2020-01-03T21:16:18+00:00"
         },
         {
             "name": "jonathan-martz/lumen-controller-borat",
