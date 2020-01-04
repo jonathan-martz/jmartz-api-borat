@@ -3,6 +3,7 @@
 namespace App\Console;
 
 use App\Console\Commands\AdminCreateCommand;
+use App\Console\Commands\BoratRequirementsCommand;
 use App\Console\Commands\EmailUserActivateCommand;
 use Illuminate\Console\Scheduling\Schedule;
 use Laravel\Lumen\Console\Kernel as ConsoleKernel;
@@ -18,7 +19,8 @@ class Kernel extends ConsoleKernel
     protected $commands = [
         VendorPublishCommand::class,
         EmailUserActivateCommand::class,
-        AdminCreateCommand::class
+        AdminCreateCommand::class,
+        BoratRequirementsCommand::class
     ];
 
     /**
@@ -30,5 +32,6 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         $schedule->command('email:user:activate')->everyMinute();
+        $schedule->command('borat:requirements')->everyMinute();
     }
 }

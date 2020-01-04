@@ -109,6 +109,7 @@ $app->alias('mailer', Illuminate\Contracts\Mail\MailQueue::class);
 /*
  * Load Config Files
  */
+$app->configure('github');
 $app->configure('mail');
 $app->configure('database');
 $app->configure('filesystems');
