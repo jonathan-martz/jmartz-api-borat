@@ -24,6 +24,7 @@
         "jonathan-martz/lumen-controller-borat-cache": "^0.1",
         "jonathan-martz/lumen-controller-borat-admin": "^0.1",
         "jonathan-martz/lumen-command-admin-create": "^0.1",
+        "jonathan-martz/lumen-command-borat-requirements": "^0.1",
         "guzzlehttp/guzzle": "^6.5",
         "illuminate/mail": "^6.8",
         "laravelista/lumen-vendor-publish": "^6.0"
