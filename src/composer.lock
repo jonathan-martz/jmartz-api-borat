@@ -1,20 +1,20 @@
 {
-  "_readme": [
-    "This file locks the dependencies of your project to a known state",
-    "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
-    "This file is @generated automatically"
-  ],
-  "content-hash": "1813ddf30eef864b811b435af4a90e79",
-  "packages": [
-    {
-      "name": "doctrine/inflector",
-      "version": "1.3.1",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/doctrine/inflector.git",
-        "reference": "ec3a55242203ffa6a4b27c58176da97ff0a7aec1"
-      },
-      "dist": {
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1813ddf30eef864b811b435af4a90e79",
+    "packages": [
+        {
+            "name": "doctrine/inflector",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/inflector.git",
+                "reference": "ec3a55242203ffa6a4b27c58176da97ff0a7aec1"
+            },
+            "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/doctrine/inflector/zipball/ec3a55242203ffa6a4b27c58176da97ff0a7aec1",
                 "reference": "ec3a55242203ffa6a4b27c58176da97ff0a7aec1",
@@ -1746,65 +1746,65 @@
             ],
             "authors": [
                 {
-                  "name": "Jonathan Martz",
-                  "email": "composer@jmartz.de",
-                  "homepage": "https://www.jmartz.de",
-                  "role": "Developer"
+                    "name": "Jonathan Martz",
+                    "email": "composer@jmartz.de",
+                    "homepage": "https://www.jmartz.de",
+                    "role": "Developer"
                 }
             ],
-          "description": "Php Lumen Command Admin Create",
-          "time": "2020-01-02T17:33:00+00:00"
+            "description": "Php Lumen Command Admin Create",
+            "time": "2020-01-02T17:33:00+00:00"
         },
-    {
-      "name": "jonathan-martz/lumen-command-borat-requirements",
-      "version": "0.1",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/jonathan-martz/lumen-command-borat-requirements.git",
-        "reference": "5096b07619bc0182868433838966daab17d13460"
-      },
-      "dist": {
-        "type": "zip",
-        "url": "https://api.github.com/repos/jonathan-martz/lumen-command-borat-requirements/zipball/5096b07619bc0182868433838966daab17d13460",
-        "reference": "5096b07619bc0182868433838966daab17d13460",
-        "shasum": ""
-      },
-      "require": {
-        "laravel/lumen-framework": "^6.3",
-        "php": "^7.3|^7.4"
-      },
-      "type": "library",
-      "autoload": {
-        "classmap": [
-          "command/"
-        ]
-      },
-      "notification-url": "https://packagist.org/downloads/",
-      "license": [
-        "MIT"
-      ],
-      "authors": [
         {
-          "name": "Jonathan Martz",
-          "email": "composer@jmartz.de",
-          "homepage": "https://www.jmartz.de",
-          "role": "Developer"
-        }
-      ],
-      "description": "Php Lumen Command Borat Requirements",
-      "time": "2020-01-04T22:12:42+00:00"
-    },
-    {
-      "name": "jonathan-martz/lumen-controller",
-      "version": "0.3.6",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/jonathan-martz/lumen-controller.git",
-        "reference": "23f742f3b6951a5010ad216ef61055e65dec6de8"
-      },
-      "dist": {
-        "type": "zip",
-        "url": "https://api.github.com/repos/jonathan-martz/lumen-controller/zipball/23f742f3b6951a5010ad216ef61055e65dec6de8",
+            "name": "jonathan-martz/lumen-command-borat-requirements",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jonathan-martz/lumen-command-borat-requirements.git",
+                "reference": "2d48c633146acb2ef2bb773798956aaa8a654e09"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-command-borat-requirements/zipball/2d48c633146acb2ef2bb773798956aaa8a654e09",
+                "reference": "2d48c633146acb2ef2bb773798956aaa8a654e09",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/lumen-framework": "^6.3",
+                "php": "^7.3|^7.4"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "command/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Martz",
+                    "email": "composer@jmartz.de",
+                    "homepage": "https://www.jmartz.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Php Lumen Command Borat Requirements",
+            "time": "2020-01-04T23:56:59+00:00"
+        },
+        {
+            "name": "jonathan-martz/lumen-controller",
+            "version": "0.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jonathan-martz/lumen-controller.git",
+                "reference": "23f742f3b6951a5010ad216ef61055e65dec6de8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller/zipball/23f742f3b6951a5010ad216ef61055e65dec6de8",
                 "reference": "23f742f3b6951a5010ad216ef61055e65dec6de8",
                 "shasum": ""
             },
@@ -1893,20 +1893,20 @@
             "description": "Php Lumen Borat Controller",
             "time": "2020-01-03T18:25:15+00:00"
         },
-    {
-      "name": "jonathan-martz/lumen-controller-borat-admin",
-      "version": "0.1.6",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/jonathan-martz/lumen-controller-borat-admin.git",
-        "reference": "58d4644d164650b97f5068f26debb9a5c4b9842d"
-      },
-      "dist": {
-        "type": "zip",
-        "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-borat-admin/zipball/58d4644d164650b97f5068f26debb9a5c4b9842d",
-        "reference": "58d4644d164650b97f5068f26debb9a5c4b9842d",
-        "shasum": ""
-      },
+        {
+            "name": "jonathan-martz/lumen-controller-borat-admin",
+            "version": "0.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jonathan-martz/lumen-controller-borat-admin.git",
+                "reference": "58d4644d164650b97f5068f26debb9a5c4b9842d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-borat-admin/zipball/58d4644d164650b97f5068f26debb9a5c4b9842d",
+                "reference": "58d4644d164650b97f5068f26debb9a5c4b9842d",
+                "shasum": ""
+            },
             "require": {
                 "ext-curl": "*",
                 "ext-json": "*",
@@ -1945,7 +1945,7 @@
                 }
             ],
             "description": "Php Lumen Borat Admin Controller",
-      "time": "2020-01-04T12:12:32+00:00"
+            "time": "2020-01-04T12:12:32+00:00"
         },
         {
             "name": "jonathan-martz/lumen-controller-borat-cache",
@@ -2829,20 +2829,20 @@
             ],
             "time": "2019-10-11T13:03:19+00:00"
         },
-    {
-      "name": "league/flysystem",
-      "version": "1.0.63",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/thephpleague/flysystem.git",
-        "reference": "8132daec326565036bc8e8d1876f77ec183a7bd6"
-      },
-      "dist": {
-        "type": "zip",
-        "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/8132daec326565036bc8e8d1876f77ec183a7bd6",
-        "reference": "8132daec326565036bc8e8d1876f77ec183a7bd6",
-        "shasum": ""
-      },
+        {
+            "name": "league/flysystem",
+            "version": "1.0.63",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem.git",
+                "reference": "8132daec326565036bc8e8d1876f77ec183a7bd6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/8132daec326565036bc8e8d1876f77ec183a7bd6",
+                "reference": "8132daec326565036bc8e8d1876f77ec183a7bd6",
+                "shasum": ""
+            },
             "require": {
                 "ext-fileinfo": "*",
                 "php": ">=5.5.9"
@@ -2911,7 +2911,7 @@
                 "sftp",
                 "storage"
             ],
-      "time": "2020-01-04T16:30:31+00:00"
+            "time": "2020-01-04T16:30:31+00:00"
         },
         {
             "name": "monolog/monolog",
