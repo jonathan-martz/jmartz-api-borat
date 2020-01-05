@@ -1756,42 +1756,43 @@
             "time": "2020-01-02T17:33:00+00:00"
         },
         {
-          "name": "jonathan-martz/lumen-command-borat-requirements",
-          "version": "0.1.3",
-          "source": {
-            "type": "git",
-            "url": "https://github.com/jonathan-martz/lumen-command-borat-requirements.git",
-            "reference": "ac3b7190349cc22b8577af84b7c275d2a43762ed"
-          },
-          "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/jonathan-martz/lumen-command-borat-requirements/zipball/ac3b7190349cc22b8577af84b7c275d2a43762ed",
-            "reference": "ac3b7190349cc22b8577af84b7c275d2a43762ed",
-            "shasum": ""
-          },
-          "require": {
-            "laravel/lumen-framework": "^6.3",
-            "php": "^7.3|^7.4"
-          },
-          "type": "library",
-          "extra": {
-            "laravel": {
-              "providers": [
-                "App\\Providers\\CommandBoratProvider"
-              ]
-            }
-          },
-          "autoload": {
-            "classmap": [
-              "command/"
-            ]
-          },
-          "notification-url": "https://packagist.org/downloads/",
-          "license": [
-            "MIT"
-          ],
-          "description": "Php Lumen Command Borat Requirements",
-          "time": "2020-01-05T12:15:00+00:00"
+            "name": "jonathan-martz/lumen-command-borat-requirements",
+            "version": "0.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jonathan-martz/lumen-command-borat-requirements.git",
+                "reference": "e06057680509cae5858bec0edfa00ff10555126c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jonathan-martz/lumen-command-borat-requirements/zipball/e06057680509cae5858bec0edfa00ff10555126c",
+                "reference": "e06057680509cae5858bec0edfa00ff10555126c",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/lumen-framework": "^6.3",
+                "php": "^7.3|^7.4"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "App\\Providers\\CommandBoratProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "command/",
+                    "provider/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Php Lumen Command Borat Requirements",
+            "time": "2020-01-05T12:53:51+00:00"
         },
         {
             "name": "jonathan-martz/lumen-controller",
