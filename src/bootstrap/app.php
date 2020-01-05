@@ -98,6 +98,7 @@ $app->register(App\Providers\BoratAdminProvider::class);
 $app->register(App\Providers\UserActivateProvider::class);
 $app->register(App\Providers\ControllerProvider::class);
 $app->register(Illuminate\Mail\MailServiceProvider::class);
+$app->register(App\Providers\CommandBoratProvider::class);
 
 /*
  * Load Mailer stuff
