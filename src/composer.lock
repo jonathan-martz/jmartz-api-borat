@@ -4,7 +4,7 @@
     "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
     "This file is @generated automatically"
   ],
-  "content-hash": "2496f938622f9697cb64d121d80ce513",
+  "content-hash": "40406774be20ef9eeb35affa39c197fe",
   "packages": [
     {
       "name": "doctrine/inflector",
@@ -15,16 +15,16 @@
         "reference": "ec3a55242203ffa6a4b27c58176da97ff0a7aec1"
       },
       "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/ec3a55242203ffa6a4b27c58176da97ff0a7aec1",
-                "reference": "ec3a55242203ffa6a4b27c58176da97ff0a7aec1",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^6.2"
+        "type": "zip",
+        "url": "https://api.github.com/repos/doctrine/inflector/zipball/ec3a55242203ffa6a4b27c58176da97ff0a7aec1",
+        "reference": "ec3a55242203ffa6a4b27c58176da97ff0a7aec1",
+        "shasum": ""
+      },
+      "require": {
+        "php": "^7.1"
+      },
+      "require-dev": {
+        "phpunit/phpunit": "^6.2"
             },
             "type": "library",
             "extra": {
@@ -1659,40 +1659,40 @@
             "license": [
                 "MIT"
             ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylor@laravel.com"
-                }
-            ],
-            "description": "The Illuminate View package.",
-            "homepage": "https://laravel.com",
-            "time": "2019-12-05T12:05:44+00:00"
+          "authors": [
+            {
+              "name": "Taylor Otwell",
+              "email": "taylor@laravel.com"
+            }
+          ],
+          "description": "The Illuminate View package.",
+          "homepage": "https://laravel.com",
+          "time": "2019-12-05T12:05:44+00:00"
         },
     {
       "name": "jonathan-martz/lumen-borat-mail-templates",
-      "version": "0.1",
+      "version": "0.1.1",
       "source": {
         "type": "git",
         "url": "https://github.com/jonathan-martz/lumen-borat-mail-templates.git",
-        "reference": "3bab255c460e5f8a0d6a3d114773cb7a7c333b50"
+        "reference": "ea74c86ecc97e8f138ecfd5557e7edae48aec9c2"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/jonathan-martz/lumen-borat-mail-templates/zipball/3bab255c460e5f8a0d6a3d114773cb7a7c333b50",
-        "reference": "3bab255c460e5f8a0d6a3d114773cb7a7c333b50",
+        "url": "https://api.github.com/repos/jonathan-martz/lumen-borat-mail-templates/zipball/ea74c86ecc97e8f138ecfd5557e7edae48aec9c2",
+        "reference": "ea74c86ecc97e8f138ecfd5557e7edae48aec9c2",
         "shasum": ""
       },
-            "require": {
-              "jonathan-martz/lumen-controller": "^0.2",
-              "laravel/lumen-framework": "^5.6|^6.0",
-              "php": "^7.1|^7.2|^7.3|^7.4"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "App\\Providers\\BoratMailsProvider"
+      "require": {
+        "jonathan-martz/lumen-controller": "^0.3",
+        "laravel/lumen-framework": "^6.3",
+        "php": "^7.1|^7.2|^7.3|^7.4"
+      },
+      "type": "library",
+      "extra": {
+        "laravel": {
+          "providers": [
+            "App\\Providers\\BoratMailsProvider"
                     ]
                 }
             },
@@ -1714,7 +1714,7 @@
                 }
             ],
             "description": "Php Lumen Borat Mail Templates",
-      "time": "2019-12-29T19:02:41+00:00"
+      "time": "2020-01-03T19:30:05+00:00"
         },
         {
             "name": "jonathan-martz/lumen-command-admin-create",
@@ -1745,79 +1745,88 @@
                 "MIT"
             ],
             "authors": [
-                {
-                    "name": "Jonathan Martz",
-                    "email": "composer@jmartz.de",
-                    "homepage": "https://www.jmartz.de",
-                    "role": "Developer"
-                }
+              {
+                "name": "Jonathan Martz",
+                "email": "composer@jmartz.de",
+                "homepage": "https://www.jmartz.de",
+                "role": "Developer"
+              }
             ],
-            "description": "Php Lumen Command Admin Create",
-            "time": "2020-01-02T17:33:00+00:00"
+          "description": "Php Lumen Command Admin Create",
+          "time": "2020-01-02T17:33:00+00:00"
         },
     {
       "name": "jonathan-martz/lumen-command-borat-requirements",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "source": {
         "type": "git",
         "url": "https://github.com/jonathan-martz/lumen-command-borat-requirements.git",
-        "reference": "5fd94f9480efd3c07480d74cef537a6bfe4ba752"
+        "reference": "787d3fdfa7591a2ce7f988f670064885ebe3f226"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/jonathan-martz/lumen-command-borat-requirements/zipball/5fd94f9480efd3c07480d74cef537a6bfe4ba752",
-        "reference": "5fd94f9480efd3c07480d74cef537a6bfe4ba752",
+        "url": "https://api.github.com/repos/jonathan-martz/lumen-command-borat-requirements/zipball/787d3fdfa7591a2ce7f988f670064885ebe3f226",
+        "reference": "787d3fdfa7591a2ce7f988f670064885ebe3f226",
         "shasum": ""
       },
-            "require": {
-                "laravel/lumen-framework": "^6.3",
-                "php": "^7.3|^7.4"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "App\\Providers\\CommandBoratProvider"
+      "require": {
+        "jonathan-martz/lumen-controller-borat": "^0.3",
+        "laravel/lumen-framework": "^6.3",
+        "php": "^7.3|^7.4"
+      },
+      "type": "library",
+      "extra": {
+        "laravel": {
+          "providers": [
+            "App\\Providers\\CommandBoratProvider"
                     ]
                 }
             },
-            "autoload": {
-                "classmap": [
-                    "command/",
-                    "provider/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
+      "autoload": {
+        "classmap": [
+          "command/",
+          "provider/"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
       "description": "Php Lumen Command Borat Requirements",
-      "time": "2020-01-05T19:48:20+00:00"
+      "time": "2020-01-06T19:19:35+00:00"
     },
     {
       "name": "jonathan-martz/lumen-controller",
-      "version": "0.2.9",
+      "version": "0.3.6",
       "source": {
         "type": "git",
         "url": "https://github.com/jonathan-martz/lumen-controller.git",
-        "reference": "0ab8c9d70004d014acc24d30db48266804a00fbc"
+        "reference": "23f742f3b6951a5010ad216ef61055e65dec6de8"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/jonathan-martz/lumen-controller/zipball/0ab8c9d70004d014acc24d30db48266804a00fbc",
-        "reference": "0ab8c9d70004d014acc24d30db48266804a00fbc",
+        "url": "https://api.github.com/repos/jonathan-martz/lumen-controller/zipball/23f742f3b6951a5010ad216ef61055e65dec6de8",
+        "reference": "23f742f3b6951a5010ad216ef61055e65dec6de8",
         "shasum": ""
       },
       "require": {
         "jonathan-martz/lumen-middelware-https": "^0.1",
         "jonathan-martz/lumen-middelware-xss": "^0.1",
-        "laravel/lumen-framework": "^5.6|^6.0",
-        "php": "^7.1|^7.2|^7.3|^7.4"
+        "laravel/lumen-framework": "^6.3",
+        "php": "^7.3|^7.4"
       },
       "type": "library",
+      "extra": {
+        "laravel": {
+          "providers": [
+            "App\\Providers\\ControllerProvider"
+          ]
+        }
+      },
       "autoload": {
         "classmap": [
-          "controller/"
+          "controller/",
+          "provider/"
         ]
       },
       "notification-url": "https://packagist.org/downloads/",
@@ -1833,48 +1842,48 @@
         }
       ],
       "description": "Php Lumen Controller to organise response",
-      "time": "2019-12-28T15:50:24+00:00"
+      "time": "2020-01-03T21:16:18+00:00"
     },
     {
       "name": "jonathan-martz/lumen-controller-admin-activate",
-      "version": "0.1",
+      "version": "0.1.1",
       "source": {
         "type": "git",
         "url": "https://github.com/jonathan-martz/lumen-controller-admin-activate.git",
-        "reference": "1e2f9a6bb77215fb3c57cec21df2cbe8a0063fd9"
+        "reference": "55aecd5a511071758df7327fb314397b128a0555"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-admin-activate/zipball/1e2f9a6bb77215fb3c57cec21df2cbe8a0063fd9",
-        "reference": "1e2f9a6bb77215fb3c57cec21df2cbe8a0063fd9",
+        "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-admin-activate/zipball/55aecd5a511071758df7327fb314397b128a0555",
+        "reference": "55aecd5a511071758df7327fb314397b128a0555",
         "shasum": ""
       },
       "require": {
-        "jonathan-martz/lumen-controller": "^0.2",
+        "jonathan-martz/lumen-controller": "^0.3",
         "jonathan-martz/lumen-middelware-auth": "^0.2",
         "jonathan-martz/lumen-middelware-https": "^0.1",
         "jonathan-martz/lumen-middelware-xss": "^0.1",
         "laravel/lumen-framework": "^6.3",
         "php": "^7.3|^7.4"
       },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                      "App\\Providers\\AdminActivateProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "controller/",
-                    "provider/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-              "MIT"
-            ],
+      "type": "library",
+      "extra": {
+        "laravel": {
+          "providers": [
+            "App\\Providers\\AdminActivateProvider"
+          ]
+        }
+      },
+      "autoload": {
+        "classmap": [
+          "controller/",
+          "provider/"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
       "authors": [
         {
           "name": "Jonathan Martz",
@@ -1884,32 +1893,32 @@
         }
       ],
       "description": "Php Lumen Admin Activate Controller",
-      "time": "2020-01-06T18:38:29+00:00"
+      "time": "2020-01-06T19:04:39+00:00"
     },
     {
       "name": "jonathan-martz/lumen-controller-borat",
-      "version": "0.2.9",
+      "version": "0.3",
       "source": {
         "type": "git",
         "url": "https://github.com/jonathan-martz/lumen-controller-borat.git",
-        "reference": "004d6f0873b20e6a4ea0d09f31148dd32f14f6d9"
+        "reference": "5df988d8e4531b7e1c599d1895aa7356b1ba950a"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-borat/zipball/004d6f0873b20e6a4ea0d09f31148dd32f14f6d9",
-        "reference": "004d6f0873b20e6a4ea0d09f31148dd32f14f6d9",
+        "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-borat/zipball/5df988d8e4531b7e1c599d1895aa7356b1ba950a",
+        "reference": "5df988d8e4531b7e1c599d1895aa7356b1ba950a",
         "shasum": ""
       },
-            "require": {
-                "ext-json": "*",
-                "jonathan-martz/lumen-middelware-https": "^0.1",
-                "jonathan-martz/lumen-middelware-xss": "^0.1",
-                "laravel/lumen-framework": "^6.3",
-                "php": "^7.3|^7.4"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
+      "require": {
+        "ext-json": "*",
+        "jonathan-martz/lumen-middelware-https": "^0.1",
+        "jonathan-martz/lumen-middelware-xss": "^0.1",
+        "laravel/lumen-framework": "^6.3",
+        "php": "^7.3|^7.4"
+      },
+      "type": "library",
+      "extra": {
+        "laravel": {
                     "providers": [
                         "App\\Providers\\BoratProvider"
                     ]
@@ -1926,41 +1935,41 @@
                 "MIT"
             ],
             "authors": [
-                {
-                    "name": "Jonathan Martz",
-                    "email": "composer@jmartz.de",
-                    "homepage": "https://www.jmartz.de",
-                    "role": "Developer"
-                }
+              {
+                "name": "Jonathan Martz",
+                "email": "composer@jmartz.de",
+                "homepage": "https://www.jmartz.de",
+                "role": "Developer"
+              }
             ],
-            "description": "Php Lumen Borat Controller",
-      "time": "2020-01-05T19:10:47+00:00"
-        },
+      "description": "Php Lumen Borat Controller",
+      "time": "2020-01-05T19:51:21+00:00"
+    },
     {
       "name": "jonathan-martz/lumen-controller-borat-admin",
-      "version": "0.1.4",
+      "version": "0.1.7",
       "source": {
         "type": "git",
         "url": "https://github.com/jonathan-martz/lumen-controller-borat-admin.git",
-        "reference": "38c5bef0717fe4487fbfb3fbcf689cddf5e9e0ed"
+        "reference": "00a3d925365940b1a103eab951dc8d3ffdd6d846"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-borat-admin/zipball/38c5bef0717fe4487fbfb3fbcf689cddf5e9e0ed",
-        "reference": "38c5bef0717fe4487fbfb3fbcf689cddf5e9e0ed",
+        "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-borat-admin/zipball/00a3d925365940b1a103eab951dc8d3ffdd6d846",
+        "reference": "00a3d925365940b1a103eab951dc8d3ffdd6d846",
         "shasum": ""
       },
-            "require": {
-              "ext-curl": "*",
-              "ext-json": "*",
-              "jonathan-martz/lumen-controller": "^0.2",
-              "jonathan-martz/lumen-controller-borat": "^0.2",
-              "jonathan-martz/lumen-middelware-auth": "^0.2",
-              "jonathan-martz/lumen-middelware-https": "^0.1",
-              "jonathan-martz/lumen-middelware-xss": "^0.1",
-              "laravel/lumen-framework": "^6.3",
-              "php": "^7.3|^7.4"
-            },
+      "require": {
+        "ext-curl": "*",
+        "ext-json": "*",
+        "jonathan-martz/lumen-controller": "^0.3",
+        "jonathan-martz/lumen-controller-borat": "^0.3",
+        "jonathan-martz/lumen-middelware-auth": "^0.2",
+        "jonathan-martz/lumen-middelware-https": "^0.1",
+        "jonathan-martz/lumen-middelware-xss": "^0.1",
+        "laravel/lumen-framework": "^6.3",
+        "php": "^7.3|^7.4"
+      },
             "type": "library",
             "extra": {
                 "laravel": {
@@ -1980,40 +1989,40 @@
                 "MIT"
             ],
             "authors": [
-                {
-                    "name": "Jonathan Martz",
-                    "email": "composer@jmartz.de",
-                    "homepage": "https://www.jmartz.de",
-                    "role": "Developer"
-                }
+              {
+                "name": "Jonathan Martz",
+                "email": "composer@jmartz.de",
+                "homepage": "https://www.jmartz.de",
+                "role": "Developer"
+              }
             ],
-            "description": "Php Lumen Borat Admin Controller",
-      "time": "2020-01-03T17:57:41+00:00"
-        },
+      "description": "Php Lumen Borat Admin Controller",
+      "time": "2020-01-06T19:11:54+00:00"
+    },
     {
       "name": "jonathan-martz/lumen-controller-borat-cache",
-      "version": "0.1.4",
+      "version": "0.1.6",
       "source": {
         "type": "git",
         "url": "https://github.com/jonathan-martz/lumen-controller-borat-cache.git",
-        "reference": "d5ddaa472c2365219c277498e664df3c9aaba180"
+        "reference": "000077b39567d8b97abaf597bf5fee434b0de90f"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-borat-cache/zipball/d5ddaa472c2365219c277498e664df3c9aaba180",
-        "reference": "d5ddaa472c2365219c277498e664df3c9aaba180",
+        "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-borat-cache/zipball/000077b39567d8b97abaf597bf5fee434b0de90f",
+        "reference": "000077b39567d8b97abaf597bf5fee434b0de90f",
         "shasum": ""
       },
-            "require": {
-              "jonathan-martz/lumen-controller": "^0.2",
-              "jonathan-martz/lumen-controller-borat": "^0.2",
-              "jonathan-martz/lumen-middelware-https": "^0.1",
-              "jonathan-martz/lumen-middelware-xss": "^0.1",
-              "laravel/lumen-framework": "^6.2",
-              "php": "^7.3|^7.4"
-            },
-            "type": "library",
-            "extra": {
+      "require": {
+        "jonathan-martz/lumen-controller": "^0.3",
+        "jonathan-martz/lumen-controller-borat": "^0.3",
+        "jonathan-martz/lumen-middelware-https": "^0.1",
+        "jonathan-martz/lumen-middelware-xss": "^0.1",
+        "laravel/lumen-framework": "^6.3",
+        "php": "^7.3|^7.4"
+      },
+      "type": "library",
+      "extra": {
                 "laravel": {
                     "providers": [
                         "App\\Providers\\BoratCacheProvider"
@@ -2031,39 +2040,40 @@
                 "MIT"
             ],
             "authors": [
-                {
-                    "name": "Jonathan Martz",
-                    "email": "composer@jmartz.de",
-                    "homepage": "https://www.jmartz.de",
-                    "role": "Developer"
-                }
+              {
+                "name": "Jonathan Martz",
+                "email": "composer@jmartz.de",
+                "homepage": "https://www.jmartz.de",
+                "role": "Developer"
+              }
             ],
-            "description": "Php Lumen Borat Cache Controller",
-      "time": "2020-01-01T23:18:25+00:00"
-        },
+      "description": "Php Lumen Borat Cache Controller",
+      "time": "2020-01-06T19:18:05+00:00"
+    },
     {
       "name": "jonathan-martz/lumen-controller-borat-repos",
-      "version": "0.1.4",
+      "version": "0.1.6",
       "source": {
         "type": "git",
         "url": "https://github.com/jonathan-martz/lumen-controller-borat-repos.git",
-        "reference": "8a8ffec5ada20cba8bb27aefa3ddc6af29ddb0a4"
+        "reference": "a774edb6dc983cd26d2f8abedfe7118f13e720ec"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-borat-repos/zipball/8a8ffec5ada20cba8bb27aefa3ddc6af29ddb0a4",
-        "reference": "8a8ffec5ada20cba8bb27aefa3ddc6af29ddb0a4",
+        "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-borat-repos/zipball/a774edb6dc983cd26d2f8abedfe7118f13e720ec",
+        "reference": "a774edb6dc983cd26d2f8abedfe7118f13e720ec",
         "shasum": ""
       },
-            "require": {
-              "jonathan-martz/lumen-controller": "^0.2",
-              "jonathan-martz/lumen-middelware-auth": "^0.2",
-              "jonathan-martz/lumen-middelware-https": "^0.1",
-              "jonathan-martz/lumen-middelware-xss": "^0.1",
-              "jonathan-martz/lumen-provider-auth": "^0.2",
-              "laravel/lumen-framework": "^6.2.0",
-              "php": "^7.3|^7.4"
-            },
+      "require": {
+        "jonathan-martz/lumen-controller": "^0.3",
+        "jonathan-martz/lumen-controller-borat": "^0.3",
+        "jonathan-martz/lumen-middelware-auth": "^0.2",
+        "jonathan-martz/lumen-middelware-https": "^0.1",
+        "jonathan-martz/lumen-middelware-xss": "^0.1",
+        "jonathan-martz/lumen-provider-auth": "^0.2",
+        "laravel/lumen-framework": "^6.3",
+        "php": "^7.3|^7.4"
+      },
             "type": "library",
             "extra": {
                 "laravel": {
@@ -2080,40 +2090,40 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "authors": [
-                {
-                    "name": "Jonathan Martz",
-                    "email": "composer@jmartz.de",
-                    "homepage": "https://www.jmartz.de",
-                    "role": "Developer"
-                }
+              {
+                "name": "Jonathan Martz",
+                "email": "composer@jmartz.de",
+                "homepage": "https://www.jmartz.de",
+                "role": "Developer"
+              }
             ],
-            "description": "Php Lumen Borat Repos Controller",
-      "time": "2020-01-01T23:15:14+00:00"
-        },
+      "description": "Php Lumen Borat Repos Controller",
+      "time": "2020-01-06T19:18:46+00:00"
+    },
     {
       "name": "jonathan-martz/lumen-controller-login",
-      "version": "0.4.3",
+      "version": "0.4.4",
       "source": {
         "type": "git",
         "url": "https://github.com/jonathan-martz/lumen-controller-login.git",
-        "reference": "bdf484d5f2f104ff26dee73963a2073521ce6b56"
+        "reference": "85ccb5d207c99f73fc2907628d9b5a2dcc9a3227"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-login/zipball/bdf484d5f2f104ff26dee73963a2073521ce6b56",
-        "reference": "bdf484d5f2f104ff26dee73963a2073521ce6b56",
+        "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-login/zipball/85ccb5d207c99f73fc2907628d9b5a2dcc9a3227",
+        "reference": "85ccb5d207c99f73fc2907628d9b5a2dcc9a3227",
         "shasum": ""
       },
-            "require": {
-              "ext-openssl": "*",
-              "jonathan-martz/lumen-controller": "^0.2",
-              "jonathan-martz/lumen-middelware-https": "^0.1",
-              "jonathan-martz/lumen-middelware-xss": "^0.1",
-              "jonathan-martz/lumen-model-user": "^0.1",
-              "laravel/lumen-framework": "^6.3",
-              "php": "^7.3|^7.4"
-            },
-            "type": "library",
+      "require": {
+        "ext-openssl": "*",
+        "jonathan-martz/lumen-controller": "^0.3",
+        "jonathan-martz/lumen-middelware-https": "^0.1",
+        "jonathan-martz/lumen-middelware-xss": "^0.1",
+        "jonathan-martz/lumen-model-user": "^0.1",
+        "laravel/lumen-framework": "^6.3",
+        "php": "^7.3|^7.4"
+      },
+      "type": "library",
             "extra": {
                 "laravel": {
                     "providers": [
@@ -2132,40 +2142,40 @@
                 "MIT"
             ],
             "authors": [
-                {
-                    "name": "Jonathan Martz",
-                    "email": "composer@jmartz.de",
-                    "homepage": "https://www.jmartz.de",
-                    "role": "Developer"
-                }
+              {
+                "name": "Jonathan Martz",
+                "email": "composer@jmartz.de",
+                "homepage": "https://www.jmartz.de",
+                "role": "Developer"
+              }
             ],
-            "description": "Php Lumen Login Controller",
-      "time": "2020-01-02T17:34:16+00:00"
-        },
+      "description": "Php Lumen Login Controller",
+      "time": "2020-01-03T18:14:47+00:00"
+    },
     {
       "name": "jonathan-martz/lumen-controller-register",
-      "version": "0.3.8",
+      "version": "0.3.9",
       "source": {
         "type": "git",
         "url": "https://github.com/jonathan-martz/lumen-controller-register.git",
-        "reference": "485bba0f6c350deb6ad612951b630b1ad7cc34bf"
+        "reference": "83ae004bcfed24e4c7e8950614f062fd7482a420"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-register/zipball/485bba0f6c350deb6ad612951b630b1ad7cc34bf",
-        "reference": "485bba0f6c350deb6ad612951b630b1ad7cc34bf",
+        "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-register/zipball/83ae004bcfed24e4c7e8950614f062fd7482a420",
+        "reference": "83ae004bcfed24e4c7e8950614f062fd7482a420",
         "shasum": ""
       },
-            "require": {
-              "jonathan-martz/lumen-controller": "^0.2",
-              "jonathan-martz/lumen-middelware-https": "^0.1",
-              "jonathan-martz/lumen-middelware-xss": "^0.1",
-              "laravel/lumen-framework": "^6.3",
-              "php": "^7.3|^7.4"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
+      "require": {
+        "jonathan-martz/lumen-controller": "^0.3",
+        "jonathan-martz/lumen-middelware-https": "^0.1",
+        "jonathan-martz/lumen-middelware-xss": "^0.1",
+        "laravel/lumen-framework": "^6.3",
+        "php": "^7.3|^7.4"
+      },
+      "type": "library",
+      "extra": {
+        "laravel": {
                     "providers": [
                         "App\\Providers\\RegisterProvider"
                     ]
@@ -2182,40 +2192,40 @@
                 "MIT"
             ],
             "authors": [
-                {
-                    "name": "Jonathan Martz",
-                    "email": "composer@jmartz.de",
-                    "homepage": "https://www.jmartz.de",
-                    "role": "Developer"
-                }
+              {
+                "name": "Jonathan Martz",
+                "email": "composer@jmartz.de",
+                "homepage": "https://www.jmartz.de",
+                "role": "Developer"
+              }
             ],
-            "description": "Php Lumen Register Controller",
-      "time": "2020-01-02T17:38:09+00:00"
-        },
+      "description": "Php Lumen Register Controller",
+      "time": "2020-01-03T18:18:26+00:00"
+    },
     {
       "name": "jonathan-martz/lumen-controller-user",
-      "version": "0.2",
+      "version": "0.2.1",
       "source": {
         "type": "git",
         "url": "https://github.com/jonathan-martz/lumen-controller-user.git",
-        "reference": "71cb053873933b77180b4b9f54a7c97041d7c33d"
+        "reference": "9d93ef37224610ec41d3c913fc2c394554f9e8fc"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-user/zipball/71cb053873933b77180b4b9f54a7c97041d7c33d",
-        "reference": "71cb053873933b77180b4b9f54a7c97041d7c33d",
+        "url": "https://api.github.com/repos/jonathan-martz/lumen-controller-user/zipball/9d93ef37224610ec41d3c913fc2c394554f9e8fc",
+        "reference": "9d93ef37224610ec41d3c913fc2c394554f9e8fc",
         "shasum": ""
       },
-            "require": {
-              "jonathan-martz/lumen-controller": "^0.2",
-              "jonathan-martz/lumen-middelware-auth": "^0.2",
-              "jonathan-martz/lumen-middelware-https": "^0.1",
-              "jonathan-martz/lumen-middelware-xss": "^0.1",
-              "laravel/lumen-framework": "^6.3",
-              "php": "^7.3|^7.4"
-            },
-            "type": "library",
-            "extra": {
+      "require": {
+        "jonathan-martz/lumen-controller": "^0.3",
+        "jonathan-martz/lumen-middelware-auth": "^0.2",
+        "jonathan-martz/lumen-middelware-https": "^0.1",
+        "jonathan-martz/lumen-middelware-xss": "^0.1",
+        "laravel/lumen-framework": "^6.3",
+        "php": "^7.3|^7.4"
+      },
+      "type": "library",
+      "extra": {
                 "laravel": {
                     "providers": [
                         "App\\Providers\\UserProvider"
@@ -2233,80 +2243,80 @@
                 "MIT"
             ],
             "authors": [
-                {
-                    "name": "Jonathan Martz",
-                    "email": "composer@jmartz.de",
-                    "homepage": "https://www.jmartz.de",
-                    "role": "Developer"
-                }
+              {
+                "name": "Jonathan Martz",
+                "email": "composer@jmartz.de",
+                "homepage": "https://www.jmartz.de",
+                "role": "Developer"
+              }
             ],
-            "description": "Php Lumen User Controller",
-      "time": "2020-01-02T17:32:10+00:00"
-        },
+      "description": "Php Lumen User Controller",
+      "time": "2020-01-03T18:17:47+00:00"
+    },
     {
       "name": "jonathan-martz/lumen-exeception-to-json",
-      "version": "0.3.3",
+      "version": "0.3.4",
       "source": {
         "type": "git",
         "url": "https://github.com/jonathan-martz/lumen-exeception-to-json.git",
-        "reference": "864875b6c8e73926d222dc5bcb0cec61133935d0"
+        "reference": "d1a639050973b8551e5d7c4ac891268a2e91c83b"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/jonathan-martz/lumen-exeception-to-json/zipball/864875b6c8e73926d222dc5bcb0cec61133935d0",
-        "reference": "864875b6c8e73926d222dc5bcb0cec61133935d0",
+        "url": "https://api.github.com/repos/jonathan-martz/lumen-exeception-to-json/zipball/d1a639050973b8551e5d7c4ac891268a2e91c83b",
+        "reference": "d1a639050973b8551e5d7c4ac891268a2e91c83b",
         "shasum": ""
       },
-            "require": {
-              "jonathan-martz/lumen-controller": "^0.2",
-              "laravel/lumen-framework": "^6.3",
-              "php": "^7.3|^7.4"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "class/"
-                ]
+      "require": {
+        "jonathan-martz/lumen-controller": "^0.3",
+        "laravel/lumen-framework": "^6.3",
+        "php": "^7.3|^7.4"
+      },
+      "type": "library",
+      "autoload": {
+        "classmap": [
+          "class/"
+        ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "authors": [
-                {
-                    "name": "Jonathan Martz",
-                    "email": "composer@jmartz.de",
-                    "homepage": "https://www.jmartz.de",
-                    "role": "Developer"
-                }
+              {
+                "name": "Jonathan Martz",
+                "email": "composer@jmartz.de",
+                "homepage": "https://www.jmartz.de",
+                "role": "Developer"
+              }
             ],
-            "description": "Php Lumen handle api exception.",
-      "time": "2020-01-02T15:57:49+00:00"
-        },
+      "description": "Php Lumen handle api exception.",
+      "time": "2020-01-03T20:47:24+00:00"
+    },
     {
       "name": "jonathan-martz/lumen-middelware-auth",
-      "version": "0.2.5",
+      "version": "0.2.6",
       "source": {
         "type": "git",
         "url": "https://github.com/jonathan-martz/lumen-middelware-auth.git",
-        "reference": "6b8abe1c99bf4ef349f87b827d13b5d304973cb0"
+        "reference": "dbb59b2b44fce4b9854bd2213fbd39f40b8400fd"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/jonathan-martz/lumen-middelware-auth/zipball/6b8abe1c99bf4ef349f87b827d13b5d304973cb0",
-        "reference": "6b8abe1c99bf4ef349f87b827d13b5d304973cb0",
+        "url": "https://api.github.com/repos/jonathan-martz/lumen-middelware-auth/zipball/dbb59b2b44fce4b9854bd2213fbd39f40b8400fd",
+        "reference": "dbb59b2b44fce4b9854bd2213fbd39f40b8400fd",
         "shasum": ""
       },
-            "require": {
-              "jonathan-martz/lumen-controller": "^0.2",
-              "jonathan-martz/lumen-model-user": "^0.1",
-              "jonathan-martz/lumen-provider-auth": "^0.2",
-              "laravel/lumen-framework": "^6.3",
-              "php": "^7.3|^7.4"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
+      "require": {
+        "jonathan-martz/lumen-controller": "^0.3",
+        "jonathan-martz/lumen-model-user": "^0.1",
+        "jonathan-martz/lumen-provider-auth": "^0.2",
+        "laravel/lumen-framework": "^6.3",
+        "php": "^7.3|^7.4"
+      },
+      "type": "library",
+      "autoload": {
+        "classmap": [
                     "middelware/"
                 ]
             },
@@ -2315,80 +2325,80 @@
                 "MIT"
             ],
             "authors": [
-                {
-                    "name": "Jonathan Martz",
-                    "email": "composer@jmartz.de",
-                    "homepage": "https://www.jmartz.de",
-                    "role": "Developer"
-                }
+              {
+                "name": "Jonathan Martz",
+                "email": "composer@jmartz.de",
+                "homepage": "https://www.jmartz.de",
+                "role": "Developer"
+              }
             ],
-            "description": "Php Lumen Middelware Auth",
-      "time": "2020-01-02T17:40:22+00:00"
-        },
+      "description": "Php Lumen Middelware Auth",
+      "time": "2020-01-03T19:40:16+00:00"
+    },
     {
       "name": "jonathan-martz/lumen-middelware-https",
-      "version": "0.1",
+      "version": "0.1.1",
       "source": {
         "type": "git",
         "url": "https://github.com/jonathan-martz/lumen-middelware-https.git",
-        "reference": "1f1fb87a576fcfbe4140edcd32c0d8967591cf5a"
+        "reference": "002d33c887f39e1f2120478dddbb4e043e38841c"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/jonathan-martz/lumen-middelware-https/zipball/1f1fb87a576fcfbe4140edcd32c0d8967591cf5a",
-        "reference": "1f1fb87a576fcfbe4140edcd32c0d8967591cf5a",
+        "url": "https://api.github.com/repos/jonathan-martz/lumen-middelware-https/zipball/002d33c887f39e1f2120478dddbb4e043e38841c",
+        "reference": "002d33c887f39e1f2120478dddbb4e043e38841c",
         "shasum": ""
       },
-            "require": {
-              "jonathan-martz/lumen-controller": "^0.2",
-              "laravel/lumen-framework": "^5.6|^6.0",
-              "php": "^7.1|^7.2|^7.3|^7.4"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "middelware/"
-                ]
+      "require": {
+        "jonathan-martz/lumen-controller": "^0.3",
+        "laravel/lumen-framework": "^6.3",
+        "php": "^7.3|^7.4"
+      },
+      "type": "library",
+      "autoload": {
+        "classmap": [
+          "middelware/"
+        ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "authors": [
-                {
-                    "name": "Jonathan Martz",
-                    "email": "composer@jmartz.de",
-                    "homepage": "https://www.jmartz.de",
-                    "role": "Developer"
-                }
+              {
+                "name": "Jonathan Martz",
+                "email": "composer@jmartz.de",
+                "homepage": "https://www.jmartz.de",
+                "role": "Developer"
+              }
             ],
-            "description": "Php Lumen Middelware Https",
-      "time": "2019-12-25T11:34:59+00:00"
-        },
+      "description": "Php Lumen Middelware Https",
+      "time": "2020-01-03T19:39:37+00:00"
+    },
     {
       "name": "jonathan-martz/lumen-middelware-xss",
-      "version": "0.1",
+      "version": "0.1.1",
       "source": {
         "type": "git",
         "url": "https://github.com/jonathan-martz/lumen-middelware-xss.git",
-        "reference": "22440d4366e842a75901032eaf2034626f7ca27b"
+        "reference": "f749c1acaec10568d230d8b28cabc1847a7733bf"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/jonathan-martz/lumen-middelware-xss/zipball/22440d4366e842a75901032eaf2034626f7ca27b",
-        "reference": "22440d4366e842a75901032eaf2034626f7ca27b",
+        "url": "https://api.github.com/repos/jonathan-martz/lumen-middelware-xss/zipball/f749c1acaec10568d230d8b28cabc1847a7733bf",
+        "reference": "f749c1acaec10568d230d8b28cabc1847a7733bf",
         "shasum": ""
       },
-            "require": {
-              "jonathan-martz/lumen-controller": "^0.2",
-              "laravel/lumen-framework": "^5.6|^6.0",
-              "php": "^7.1|^7.2|^7.3|^7.4"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "middelware/"
-                ]
+      "require": {
+        "jonathan-martz/lumen-controller": "^0.3",
+        "laravel/lumen-framework": "^6.3",
+        "php": "^7.3|^7.4"
+      },
+      "type": "library",
+      "autoload": {
+        "classmap": [
+          "middelware/"
+        ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2403,7 +2413,7 @@
                 }
             ],
             "description": "Php Lumen Middelware Xss",
-      "time": "2019-12-25T12:40:56+00:00"
+      "time": "2020-01-03T19:38:35+00:00"
         },
         {
             "name": "jonathan-martz/lumen-model-base-role",
@@ -2591,40 +2601,40 @@
                 "MIT"
             ],
             "authors": [
-                {
-                    "name": "Jonathan Martz",
-                    "email": "composer@jmartz.de",
-                    "homepage": "https://www.jmartz.de",
-                    "role": "Developer"
-                }
+              {
+                "name": "Jonathan Martz",
+                "email": "composer@jmartz.de",
+                "homepage": "https://www.jmartz.de",
+                "role": "Developer"
+              }
             ],
-            "description": "Php Lumen Model User",
-            "time": "2019-12-31T20:08:29+00:00"
+          "description": "Php Lumen Model User",
+          "time": "2019-12-31T20:08:29+00:00"
         },
     {
       "name": "jonathan-martz/lumen-provider-auth",
-      "version": "0.2.2",
+      "version": "0.2.4",
       "source": {
         "type": "git",
         "url": "https://github.com/jonathan-martz/lumen-provider-auth.git",
-        "reference": "1458ed0039f1f4df094b42cd44c1b8680b0fd408"
+        "reference": "cb67e43ed4fdf6b59af38ae32a0b8f0aade2466b"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/jonathan-martz/lumen-provider-auth/zipball/1458ed0039f1f4df094b42cd44c1b8680b0fd408",
-        "reference": "1458ed0039f1f4df094b42cd44c1b8680b0fd408",
+        "url": "https://api.github.com/repos/jonathan-martz/lumen-provider-auth/zipball/cb67e43ed4fdf6b59af38ae32a0b8f0aade2466b",
+        "reference": "cb67e43ed4fdf6b59af38ae32a0b8f0aade2466b",
         "shasum": ""
       },
-            "require": {
-              "jonathan-martz/lumen-controller": "^0.2",
-              "jonathan-martz/lumen-model-user": "^0.1",
-              "laravel/lumen-framework": "^5.6|^6.0",
-              "php": "^7.1|^7.2|^7.3|^7.4"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "provider/"
+      "require": {
+        "jonathan-martz/lumen-controller": "^0.3",
+        "jonathan-martz/lumen-model-user": "^0.1",
+        "laravel/lumen-framework": "^6.3",
+        "php": "^7.3|^7.4"
+      },
+      "type": "library",
+      "autoload": {
+        "classmap": [
+          "provider/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2640,7 +2650,7 @@
                 }
             ],
             "description": "Php Lumen Provider Auth",
-      "time": "2019-12-27T21:14:38+00:00"
+      "time": "2020-01-03T19:36:38+00:00"
         },
         {
             "name": "laravel/lumen-framework",
