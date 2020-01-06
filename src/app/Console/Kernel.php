@@ -18,7 +18,6 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         VendorPublishCommand::class,
-        EmailUserActivateCommand::class,
         AdminCreateCommand::class,
         BoratRequirementsCommand::class
     ];
@@ -31,7 +30,6 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        $schedule->command('email:user:activate')->everyMinute();
         $schedule->command('borat:requirements')->everyMinute();
     }
 }
