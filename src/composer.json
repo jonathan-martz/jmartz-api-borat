@@ -15,7 +15,6 @@
         "league/flysystem": "^1.0",
         "jonathan-martz/lumen-exeception-to-json": "^0.3",
         "jonathan-martz/lumen-controller-borat": "^0.3",
-        "jonathan-martz/lumen-controller": "^0.3",
         "jonathan-martz/lumen-controller-login": "^0.4",
         "jonathan-martz/lumen-controller-register": "^0.3",
         "jonathan-martz/lumen-controller-admin-activate": "^0.1",
